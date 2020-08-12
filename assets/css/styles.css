@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS global */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background: #f4f4f4;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+h1.titre {
+    margin:30px 0 30px 0;
+	font-size: 30px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.padtop {
+    padding-top: 20px;
+	
+}
+.margtop {
+    margin-top: 50px;
+}
+.bg-noir {
+    background-color: black;
+}
+/**************************** début du header**********************************************
+*********************************************************
+**************************/
+
+
+#logo {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* navbar */
+#navcolor {
+    background-color: black;
+    color: white;
+}
+.bg-light {
+    background-color: black!important; /*!importan pour que votre style neutralise celuis de Bootstrap*/
+} 
+
+.nav-link {
+    color:white!important;
+}
+
+
+.navbar-light .navbar-toggler { /* Le style va faire apparaitre le burger bootstrap grâce au fond en blanc */
+    color: rgb(230 14 14);
+   
+    background: white;
+}
+
+/* MAIN HOME */
+
+.lignenoir {
+    border: none;
+    border-top: 2px solid;
+	color:#D4D4D4;
+}
+
+
+.calltoaction {
+	    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.5);
+	margin:30px 0 30px 0;
+	
+}
+.flex {
+    display: flex;
+}
+#logo2 {
+    display: flex;
+    align-items: center;
+}
+#coordonnees {
+    background-color: rgb(206, 205, 205);
+    border-radius: 1.5rem;
+}
+
+
+
+.footul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.foota {
+    color: white;
+    padding: 0 15px;
+}
+
+/* FOOTER */
+
+.middle {
+    margin: auto;
+}
