@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-/*Mise à jour du fichier le 13 aout 23h00*/
+/*Mise à jour du fichier le 13 aout 09h50*/
 
 
 /* CSS global */
@@ -31,6 +31,42 @@ h1.titre {
     line-height: 40px;
     font-weight: 500;
 }
+
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+	/*corrige le pb d'alignement du burger*/
+	.navbar {
+    padding: 1.2rem 0.6rem !important;
+    top:-19px !important;
+    left: 23px !important;
+	}
+}
+
+
+
+/* Landscape correction burger */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+	  
+	  
+	.navbar {
+    
+    top:1px!important;
+    
+}
+
+}
+	  
+
 
 .padtop {
     padding-top: 20px;
@@ -71,9 +107,9 @@ h1.titre {
 
 .navbar-light .navbar-toggler { /* Le style va faire apparaitre le burger bootstrap grâce au fond en blanc */
     color: rgb(230 14 14);
-   
     background: white;
 }
+
 
 /* MAIN HOME */
 
@@ -85,7 +121,7 @@ h1.titre {
 
 
 .calltoaction {
-	    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.5);
+	 box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.5);
 	margin:30px 0 30px 0;
 	
 }
@@ -121,30 +157,32 @@ h1.titre {
 
 
 /*************************************************
-*************************
-Page à propos*/
+*************************Page à propos*************/
 
-#entete{
+/*#entete{
 	
 	position:relative;
 	
-}
+}*/
 
 #titre-position {
 	
-	position:relative;
+	
 	background-color: rgba(0,0,0,0.5);
-	height: 70px;
-	top:-70px;
-	left:0;
-	z-index: 5;
+	height:70px;
+	bottom: 0;/*aligne verticalement en bas du container*/
 	color:white;
-	padding: 20px;
+	padding-left:20px;
 	font-weight: bold;
 	display: flex;
 	align-items: center;
 }
 
+h1.titre-header-bloc {
+   
+	font-size: 30px;
+   
+}
 
 /* Portrait */
 @media only screen 
@@ -154,16 +192,15 @@ Page à propos*/
   and (orientation: portrait) {
 
 
-	  h1.titre {
-		  
+h1.titre-header-bloc {
 	font-size: 20px;
-
-}
+	
+	}
 	  
 	  
 #titre-position {
     height: 41px;
-    top: -41px;
+    top: none;
 }
 
 }
