@@ -1,4 +1,9 @@
 @charset "UTF-8";
+
+
+/*Mise à jour du fichier le 13 aout 23h00*/
+
+
 /* CSS global */
 
 * {
@@ -112,4 +117,46 @@ h1.titre {
 
 .middle {
     margin: auto;
+}
+
+
+/*************************************************
+*************************
+Page à propos*/
+
+#entete{
+	
+	position:relative;
+	
+}
+
+#titre-position {
+	
+	position:relative;
+	background-color: rgba(0,0,0,0.5);
+	height: 70px;
+	top:-70px;
+	left:0;
+	z-index: 5;
+	color:white;
+	padding: 20px;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+}
+
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+
+#titre-position {
+    height: 41px;
+    top: -41px;
+}
+
 }
