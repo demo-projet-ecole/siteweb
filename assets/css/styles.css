@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-/*Mise à jour du fichier le 13 aout 09h50*/
+/*Mise à jour du fichier le 13 aout 18h08*/
 
 
 /* CSS global */
@@ -203,4 +203,20 @@ h1.titre-header-bloc {
     top: none;
 }
 
+}
+/*
+**********************************/
+ h3.sous-titre  {
+	font-size: 15px;
+}
+
+
+.resume, .stylo p {
+	
+	padding:20px;
+	overflow: hidden;
+}
+
+.img-circle {
+    border-radius: 50%;
 }
