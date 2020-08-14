@@ -6,11 +6,18 @@
 <html lang="fr">
 
 <head>
+	
 	<meta charset="UTF-8">
-	<meta name="description"
-		content="Le sp&eacute;cialiste du smartphone &agrave; petit prix pour tous. Des smartphones neuf et reconditionn&eacute;s par des experts, garantis 1 an.">
+	<meta name="description" content="Le sp&eacute;cialiste du smartphone &agrave; petit prix pour tous. Des smartphones neuf et reconditionn&eacute;s par des experts, garantis 1 an.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/cookieconsent.min.css">
+	
+	<title>Bienvenue sur SAFPICSTORE</title>
+	
+	<!--Intégration du favicon -->
+	<link rel="manifest" href="assets/js/manifest.json">
 	<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
@@ -24,12 +31,12 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-	<link rel="manifest" href="assets/js/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Bienvenue sur SAFPICSTORE</title>
+	
+	<!-- Fin d'intégration du favicon -->
+	
 </head>
 
 <body>
@@ -232,14 +239,9 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-xs-12 padtop">
-						<p>Lorem ipsum dolor sit
-							amet consectetur adipisicing elit. Consequuntur sed obcaecati autem. Facilis,
-							voluptate! Iste, amet sequi modi delectus inventore, tenetur voluptatem quasi unde
-							architecto repellendus vitae facere. Aspernatur, amet! Lorem ipsum dolor sit amet
-							consectetur adipisicing elit. Quas, beatae! Cupiditate hic deserunt ratione officiis
-							quam, maxime commodi sed culpa doloremque voluptatum eos quae sequi eveniet
-							consequatur possimus quisquam enim!</p>
-						<button class="btn-info">En savoir plus</button>
+						<p class="padtop">Forte de ses 10 ans d’expérience dans les métiers de la téléphonie mobile et de la vente de matériel associée, notre équipe vous conseille et vous apporte des solutions adaptées à votre budget tout en assurant la pérennité de vos smartphone et téléphones mobiles.</p>
+							
+						<a href="a-propos-du-site.html" class="btn btn-outline-info" role="button">En savoir +</a>
 					</div>
 					<div class="col-md-6 col-xs-12 padtop" id="coordonnees">
 						<strong>Nos horaires</strong>
@@ -252,12 +254,10 @@
 				</div>
 			</div>
 			<div class="container text-center margtop">
-				<h3>Abonnement a la newsletter</h3>
-				<div>
-					
-					
+				<h3 class="padtop">Abonnement a la newsletter</h3>
+				<div class="padbot">
 					<form action="/leads-subscribing-newsletter" method="post">
-					<div><label for="email">E-mail :</label><input name="subscriber_email" type="email" id="email" />
+					<div><label for="email">E-mail :&nbsp;</label><input name="subscriber_email" type="email" id="email" />
 					<button class="btn-info" type="submit">Envoyer</button></div>
 					</form>
 				</div>
@@ -267,55 +267,117 @@
 		<!--FIN DU MAIN-->
 	</main>
 
-	<footer>
-		<div class="container-fluid bg-noir margtop" >
-			<div class="container flex bg-noir">
-				<div class="padtop">
-					<figure>
-						<img src="assets/images/logos/logo-safpic-footer.png" alt="">
-					</figure>
-				</div>
-				
-				<div class="middle">
-					<ul class="footul">
-						<li>
-							<a class="foota" href="index.html">Acceuil</a>
-						</li>
+<!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-3 ">
 
-						<li>
-							<a class="foota" href="a-propos-du-site.html">A Propos</a>
-						</li>
+  <!-- Footer liens -->
+  <div class="container text-center text-md-left">
 
-						<li>
-							<a class="foota" href="#">Smartphones</a>
-						</li>
+    <!-- Grille row -->
+    <div class="row ">
 
-						<li>
-							<a class="foota" href="#">Accessoires</a>
-						</li>
+      <!-- Grillecolumn -->
+      <div class="col-md-4 mx-auto">
 
-						<li>
-							<a class="foota" href="#">Actualités</a>
-						</li>
+        <!-- Contenu -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">SAFPIC</h5>
+		  <p>Le spécialiste du smartphone. Vente de téléphone neuf, d'accessoires.</p>
+		
 
-						<li>
-							<a class="foota" href="#">CGU</a>
-						</li>
+      </div>
+      <!-- Grid column -->
 
-						<li>
-							<a class="foota" href="#">F.A.Q</a>
-						</li>
-					</ul>
-					<p class="foota"> &copy; SAFPIC 2020 - réalisé par Yanis, Jean-christophe, Matthieu et Sebastien - mentions légales</p>
-				</div>
-			</div>
+      <hr class="clearfix w-100 d-md-none">
 
-		</div>
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
 
-	</footer>
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">rubriques</h5>
+
+        <ul class="list-unstyled ">
+          <li>
+            <a href="#!">Accueil</a>
+          </li>
+          <li>
+            <a href="#!">A propos</a>
+          </li>
+          <li>
+            <a href="#!">Smartphones</a>
+          </li>
+          <li>
+            <a href="#!">Accessoires</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">infos</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Contact</a>
+          </li>
+          <li>
+            <a href="#!">F.A.Q</a>
+          </li>
+          <li>
+            <a href="#!">C.G.U</a>
+          </li>
+          <li>
+            <a href="#!">Cookies</a>
+          </li>
+        </ul>
+
+      </div>
+     
+
+    </div>
+
+  </div>
+ 
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> Yanis, JC , Mathieu et Sébastien</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+
 	<script src="assets/js/jquery-3.5.1.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/cookieconsent.min.js" data-cfasync="false"></script>
+
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#1d8a8a"
+    },
+    "button": {
+      "background": "transparent",
+      "text": "#62ffaa",
+      "border": "#62ffaa"
+    }
+  },
+  "position": "bottom-left",
+  "content": {
+    "message": "Attention: Ce site n'est pas un site e-commerce, c'est un devoir d'évaluation pour le centre WF3 de Lille. Nous sommes des étudiants et utilisons des cookies pour comprendre l'analyse d'audience d'un site internet. ",
+    "dismiss": "OK",
+    "link": "privacy-policy.html",
+    "href": "https://www.demo-projet-ecole.net/privacy-policy"
+  }
+});
+</script>
 
 </body>
 
