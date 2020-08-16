@@ -71,7 +71,7 @@
 
 			<div class="col-md-4 col-xs-12">
 
-				<figure><a href="lancement-du site-internet.html"><img src="assets/images/actualites/boutique.jpg"	alt="Article sur le lancement du site vitrine" class="img-thumbnail img-fluid"></a>
+				<figure><a href="lancement-du site-internet.php"><img src="assets/images/actualites/boutique.jpg"	alt="Article sur le lancement du site vitrine" class="img-thumbnail img-fluid"></a>
 				</figure>
 
 				<div class="separation">
@@ -82,11 +82,11 @@
 				<h2 class="titre-actu">Lancement du site internet</h2>
 				<article>
 
-					<p>SAFPIC met en ligne son site internet ! Un projet qui tenait à cœur à toute l’équipe, pour faire découvrir notre boutique, nos […]</p>
+					<p>SAFPIC met en ligne son site internet ! Un projet qui tenait à cœur à toute l’équipe, pour faire découvrir notre boutique, nos […]</p><br>
 
 				</article>
 
-				<a href="lancement-du site-internet.html" class="btn btn-outline-info btn-home-article float-right" role="button">En savoir +</a>
+				<a href="lancement-du site-internet.php" class="btn btn-outline-info btn-home-article float-right" role="button">En savoir +</a>
 
 
 			</div>	
@@ -97,7 +97,7 @@
 
 			<div class="col-md-4 col-xs-12">
 
-				<figure><a href="nouveaux-produits.html"><img src="assets/images/actualites/xiaomi.jpg"	alt="Produits Xiaomi" class="img-thumbnail img-fluid"></a>
+				<figure><a href="nouveaux-produits.php"><img src="assets/images/actualites/xiaomi.jpg"	alt="Produits Xiaomi" class="img-thumbnail img-fluid"></a>
 				</figure>
 
 				<div class="separation">
@@ -112,7 +112,7 @@
 
 				</article>
 
-				<a href="nouveaux-produits.html" class="btn btn-outline-info btn-home-article float-right" role="button">En savoir +</a>
+				<a href="nouveaux-produits.php" class="btn btn-outline-info btn-home-article float-right" role="button">En savoir +</a>
 
 
 			</div>	
@@ -121,7 +121,7 @@
 
 			<div class="col-md-4 col-xs-12">
 
-				<figure><a href="nrj-mobile.html"><img src="assets/images/actualites/actu-nrj-800x480.jpg"	alt="NRJ mobile" class="img-thumbnail img-fluid"></a>
+				<figure><a href="nrj-mobile.php"><img src="assets/images/actualites/actu-nrj-800x480.jpg"	alt="NRJ mobile" class="img-thumbnail img-fluid"></a>
 				</figure>
 
 				<div class="separation">
@@ -136,7 +136,7 @@
 
 				</article>
 
-				<a href="nrj-mobile.html" class="btn btn-outline-info btn-home-article float-right" role="button">En savoir +</a>
+				<a href="nrj-mobile.php" class="btn btn-outline-info btn-home-article float-right" role="button">En savoir +</a>
 
 
 			</div>	
@@ -151,7 +151,7 @@
 </main>
 
  <!--CALL TO ACTION-->
-  <div class="calltoaction"> <a href="smartphone.html"><img class="img-fluid w-100" src="assets/images/bandeau/call.gif"  alt="Découvrez notre boutique ou téléphoner au 0325895400" /></a>
+  <div class="calltoaction"> <a href="smartphone.php"><img class="img-fluid w-100" src="assets/images/bandeau/call.gif"  alt="Découvrez notre boutique ou téléphoner au 0325895400" /></a>
   </div>
 	
 	<div class="container text-center margtop">
@@ -187,7 +187,7 @@ window.cookieconsent.initialise({
   "content": {
     "message": "Attention: Ce site n'est pas un site e-commerce, c'est un devoir d'évaluation pour le centre WF3 de Lille. Nous sommes des étudiants et utilisons des cookies pour comprendre l'analyse d'audience d'un site internet. ",
     "dismiss": "OK",
-    "link": "privacy-policy.html",
+    "link": "privacy-policy.php",
     "href": "https://www.demo-projet-ecole.net/privacy-policy"
   }
 });

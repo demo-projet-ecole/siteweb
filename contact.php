@@ -139,7 +139,7 @@
     "content": {
       "message": "Attention: Ce site n'est pas un site e-commerce, c'est un devoir d'évaluation pour le centre WF3 de Lille. Nous sommes des étudiants et utilisons des cookies pour comprendre l'analyse d'audience d'un site internet. ",
       "dismiss": "OK",
-      "link": "privacy-policy.html",
+      "link": "privacy-policy.php",
       "href": "https://www.demo-projet-ecole.net/privacy-policy"
     }
   });

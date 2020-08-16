@@ -98,20 +98,20 @@
 				<div class="row">
 					<article class="col-md-6 col-xs-12">
 						<h2 class="text-center">Vente de smartphones</h2>
-						<figure> <a href="smartphone.html"><img src="assets/images/home/vignettes-home/achat-de-smartphone.jpg"
+						<figure> <a href="smartphone.php"><img src="assets/images/home/vignettes-home/achat-de-smartphone.jpg"
 								alt="Vente de téléphone à prix réduits" class="img-thumbnail img-fluid"></a>
 						</figure>
 					</article>
 					<article class="col-md-6 col-xs-12">
 						<h2 class="text-center">Vente d'accessoires</h2>
-						<figure><a href="accessoire.html"><img src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg"
+						<figure><a href="accessoire.php"><img src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg"
 								alt="Nous disposons de tous les accessoires indispensables pour votre mobile"
 								class="img-thumbnail img-fluid"></a></figure>
 					</article>
 				</div>
 			</div>
 			<!--CALL TO ACTION-->
-			<div class="calltoaction"> <a href="a-propos-du-site.html"><img class="img-fluid w-100" src="assets/images/bandeau/call.gif" alt="Découvrez notre boutique ou téléphoner au 0325895400" /></a> 
+			<div class="calltoaction"> <a href="a-propos-du-site.php"><img class="img-fluid w-100" src="assets/images/bandeau/call.gif" alt="Découvrez notre boutique ou téléphoner au 0325895400" /></a> 
 			</div>
 
 
@@ -192,7 +192,7 @@
 					<div class="col-md-6 col-xs-12 padtop">
 						<p class="padtop">Forte de ses 10 ans d’expérience dans les métiers de la téléphonie mobile et de la vente de matériel associée, notre équipe vous conseille et vous apporte des solutions adaptées à votre budget tout en assurant la pérennité de vos smartphone et téléphones mobiles.</p>
 							
-						<a href="a-propos-du-site.html" class="btn btn-outline-info btn-home-article" role="button">En savoir +</a>
+						<a href="a-propos-du-site.php" class="btn btn-outline-info btn-home-article" role="button">En savoir +</a>
 					</div>
 					<div class="col-md-6 col-xs-12 padtop" id="coordonnees">
 						<strong>Nos horaires</strong>
@@ -242,7 +242,7 @@ window.cookieconsent.initialise({
   "content": {
     "message": "Attention: Ce site n'est pas un site e-commerce, c'est un devoir d'évaluation pour le centre WF3 de Lille. Nous sommes des étudiants et utilisons des cookies pour comprendre l'analyse d'audience d'un site internet. ",
     "dismiss": "OK",
-    "link": "privacy-policy.html",
+    "link": "privacy-policy.php",
     "href": "https://www.demo-projet-ecole.net/privacy-policy"
   }
 });

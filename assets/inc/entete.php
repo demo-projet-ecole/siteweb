@@ -1,6 +1,6 @@
     <!-- logo-->
     
-    <div id="logo"> <a href="index.html"><img src="assets/images/header/logo-safpic-small.jpg"  alt="Logo de l'association SAFPIC" /></a>
+    <div id="logo"> <a href="index.php"><img src="assets/images/header/logo-safpic-small.jpg"  alt="Logo de l'association SAFPIC" /></a>
       <div>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">

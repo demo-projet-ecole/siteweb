@@ -74,7 +74,7 @@
                 <!--PU = PANIER + USER-->
                 <figure class="padright">
                     <img class="img-fluid" src="assets/images/pictos/user.png" alt="icon user"><a
-                        href="compte-client.html">connexion</a>
+                        href="compte-client.php">connexion</a>
                 </figure>
                 <figure class="padleft">
                     <img src="assets/images/pictos/panier.png" alt="icon panier"> panier
@@ -215,7 +215,7 @@
     "content": {
       "message": "Attention: Ce site n'est pas un site e-commerce, c'est un devoir d'évaluation pour le centre WF3 de Lille. Nous sommes des étudiants et utilisons des cookies pour comprendre l'analyse d'audience d'un site internet. ",
       "dismiss": "OK",
-      "link": "privacy-policy.html",
+      "link": "privacy-policy.php",
       "href": "https://www.demo-projet-ecole.net/privacy-policy"
     }
   });

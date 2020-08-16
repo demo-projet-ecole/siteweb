@@ -61,7 +61,7 @@
         <p>Forte de ses 10 ans d'expérience dans les métiers de la téléphonie mobile et de la commercialisation d’accesoires . Notre équipe est en permanence à la recherche chez nos grossistes du meilleure prix. Nous présentons également des téléphones reconditionnés de classe A.</p>
       </article>
       <article class="col-md-6 col-xs-12 padtop flex align-items-center">
-        <figure><a href="smartphone.html"><img class="img-fluid padtop" src="assets/images/a-propos/smartphone-boutique.jpg"
+        <figure><a href="smartphone.php"><img class="img-fluid padtop" src="assets/images/a-propos/smartphone-boutique.jpg"
 								alt="Nous disposons de tous les accessoires indispensables pour votre mobile"></a></figure>
       </article>
     </div>
@@ -99,19 +99,19 @@
   </div>
 </main>
 <!--CALL TO ACTION-->
-<div class="calltoaction"> <a href="a-propos-du-site.html"><img class="img-fluid w-100" src="assets/images/bandeau/call.gif"  alt="Découvrez notre boutique ou téléphoner au 0325895400" /></a> </div>
+<div class="calltoaction"> <a href="a-propos-du-site.php"><img class="img-fluid w-100" src="assets/images/bandeau/call.gif"  alt="Découvrez notre boutique ou téléphoner au 0325895400" /></a> </div>
 
 <!--ARTICLE-->
 <div class="container margtop">
   <div class="row">
     <article class="col-md-6 col-xs-12">
       <h2 class="text-center">Vente de smartphones</h2>
-      <figure> <a href="smartphone.html"><img src="assets/images/home/vignettes-home/achat-de-smartphone.jpg"
+      <figure> <a href="smartphone.php"><img src="assets/images/home/vignettes-home/achat-de-smartphone.jpg"
 								alt="Vente de téléphone à prix réduits" class="img-thumbnail img-fluid"></a> </figure>
     </article>
     <article class="col-md-6 col-xs-12">
       <h2 class="text-center">Vente d'accessoires</h2>
-      <figure><a href="accessoire.html"><img src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg" alt="Nous disposons de tous les accessoires indispensables pour votre mobile"	class="img-thumbnail img-fluid"></a></figure>
+      <figure><a href="accessoire.php"><img src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg" alt="Nous disposons de tous les accessoires indispensables pour votre mobile"	class="img-thumbnail img-fluid"></a></figure>
     </article>
   </div>
   <p class="text-center font-weight-bold text-decoration-none padtop "><a href="#haut">Retour haut de page</a></p>
@@ -139,7 +139,7 @@ window.cookieconsent.initialise({
   "content": {
     "message": "Attention: Ce site n'est pas un site e-commerce, c'est un devoir d'évaluation pour le centre WF3 de Lille. Nous sommes des étudiants et utilisons des cookies pour comprendre l'analyse d'audience d'un site internet. ",
     "dismiss": "OK",
-    "link": "privacy-policy.html",
+    "link": "privacy-policy.php",
     "href": "https://www.demo-projet-ecole.net/privacy-policy"
   }
 });

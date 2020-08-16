@@ -172,7 +172,7 @@
 						  <article>
                             <h2 class="d-none d-lg-block sizetitle">Airpod pro</h2>
                             <p class="d-none d-lg-block">200€ - SAFPICSTORE</p>
-                            <a href="a-propos-du-site.html" class="btn btn-outline-info" role="button">En savoir +</a>
+                            <a href="a-propos-du-site.php" class="btn btn-outline-info" role="button">En savoir +</a>
 						</article>
                         </div>
 
@@ -207,7 +207,7 @@
 						  <article>
                             <h2 class="d-none d-lg-block sizetitle">Airpod pro</h2>
                             <p class="d-none d-lg-block">200€ - SAFPICSTORE</p>
-                            <a href="a-propos-du-site.html" class="btn btn-outline-info" role="button">En savoir +</a>
+                            <a href="a-propos-du-site.php" class="btn btn-outline-info" role="button">En savoir +</a>
 						</article>
                         </div>
                
@@ -247,7 +247,7 @@
 						  <article>
                             <h2 class="d-none d-lg-block sizetitle">Airpod pro</h2>
                             <p class="d-none d-lg-block">200€ - SAFPICSTORE</p>
-                            <a href="a-propos-du-site.html" class="btn btn-outline-info" role="button">En savoir +</a>
+                            <a href="a-propos-du-site.php" class="btn btn-outline-info" role="button">En savoir +</a>
 						</article>
                         </div>
 
@@ -282,7 +282,7 @@
 						  <article>
                             <h2 class="d-none d-lg-block sizetitle">Airpod pro</h2>
                             <p class="d-none d-lg-block">200€ - SAFPICSTORE</p>
-                            <a href="a-propos-du-site.html" class="btn btn-outline-info" role="button">En savoir +</a>
+                            <a href="a-propos-du-site.php" class="btn btn-outline-info" role="button">En savoir +</a>
 						</article>
                         </div>
                
@@ -347,7 +347,7 @@
                 </div>
             </div>
             <!--CALL TO ACTION-->
-            <div class="calltoaction margtop"> <a href="a-propos-du-site.html"><img class="img-fluid w-100" src="assets/images/bandeau/call.gif" alt="Découvrez notre boutique ou téléphoner au 0325895400" /></a> 
+            <div class="calltoaction margtop"> <a href="a-propos-du-site.php"><img class="img-fluid w-100" src="assets/images/bandeau/call.gif" alt="Découvrez notre boutique ou téléphoner au 0325895400" /></a> 
             </div>
             <!--FIN DIV FLUID-->
         </div>
@@ -377,7 +377,7 @@
     "content": {
       "message": "Attention: Ce site n'est pas un site e-commerce, c'est un devoir d'évaluation pour le centre WF3 de Lille. Nous sommes des étudiants et utilisons des cookies pour comprendre l'analyse d'audience d'un site internet. ",
       "dismiss": "OK",
-      "link": "privacy-policy.html",
+      "link": "privacy-policy.php",
       "href": "https://www.demo-projet-ecole.net/privacy-policy"
     }
   });
