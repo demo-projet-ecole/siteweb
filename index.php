@@ -1,6 +1,6 @@
 <!doctype html>
 
-<!--derniere modification: JC le 12/08 à 12h35 -->
+<!--derniere modification: Yanis le 15/08 à 19h30 -->
 
 
 <html lang="fr">
@@ -45,56 +45,8 @@
 	<div class="container-fluid" id="navcolor">
 
 		<header class="d-flex justify-content-around">
-
-			<!-- logo-->
-
-			<div id="logo"> <a href="index.html"><img src="assets/images/header/logo-safpic-small.jpg"  alt="Logo de l'association SAFPIC" /></a>
-				<div>
-					<form class="form-inline my-2 my-lg-0">
-						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-					</form>
-				</div>
-			</div>
-
-			<!-- Début de la nav -->
-
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-				
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-					aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span
-						class="navbar-toggler-icon"></span></button>
-
-				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-
-					<ul class="navbar-nav">
-						<li class="nav-item active">
-							<a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a>
-						</li>
-
-						<li class="nav-item">
-							<a class="nav-link" href="a-propos-du-site.html">A Propos</a>
-						</li>
-
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos produits
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<a class="dropdown-item" href="#">Nos Smartphones</a>
-								<a class="dropdown-item" href="#">Nos Accessoires</a>
-							</div>
-						</li>
-
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contact</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-
-			<!-- fin de la nav -->
-
+			 <?php include('assets/inc/entete.php'); ?>
+ 
 		</header>
 	</div>
 
@@ -146,16 +98,15 @@
 				<div class="row">
 					<article class="col-md-6 col-xs-12">
 						<h2 class="text-center">Vente de smartphones</h2>
-						<figure>
-							<img src="assets/images/home/vignettes-home/achat-de-smartphone.jpg"
-								alt="Vente de téléphone à prix réduits" class="img-thumbnail img-fluid">
+						<figure> <a href="smartphone.html"><img src="assets/images/home/vignettes-home/achat-de-smartphone.jpg"
+								alt="Vente de téléphone à prix réduits" class="img-thumbnail img-fluid"></a>
 						</figure>
 					</article>
 					<article class="col-md-6 col-xs-12">
 						<h2 class="text-center">Vente d'accessoires</h2>
-						<figure><img src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg"
+						<figure><a href="accessoire.html"><img src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg"
 								alt="Nous disposons de tous les accessoires indispensables pour votre mobile"
-								class="img-thumbnail img-fluid"></figure>
+								class="img-thumbnail img-fluid"></a></figure>
 					</article>
 				</div>
 			</div>
@@ -241,7 +192,7 @@
 					<div class="col-md-6 col-xs-12 padtop">
 						<p class="padtop">Forte de ses 10 ans d’expérience dans les métiers de la téléphonie mobile et de la vente de matériel associée, notre équipe vous conseille et vous apporte des solutions adaptées à votre budget tout en assurant la pérennité de vos smartphone et téléphones mobiles.</p>
 							
-						<a href="a-propos-du-site.html" class="btn btn-outline-info" role="button">En savoir +</a>
+						<a href="a-propos-du-site.html" class="btn btn-outline-info btn-home-article" role="button">En savoir +</a>
 					</div>
 					<div class="col-md-6 col-xs-12 padtop" id="coordonnees">
 						<strong>Nos horaires</strong>
@@ -267,90 +218,8 @@
 		<!--FIN DU MAIN-->
 	</main>
 
-<!-- Footer -->
-<footer class="page-footer font-small stylish-color-dark pt-3 ">
-
-  <!-- Footer liens -->
-  <div class="container text-center text-md-left">
-
-    <!-- Grille row -->
-    <div class="row ">
-
-      <!-- Grillecolumn -->
-      <div class="col-md-4 mx-auto">
-
-        <!-- Contenu -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">SAFPIC</h5>
-		  <p>Le spécialiste du smartphone. Vente de téléphone neuf, d'accessoires.</p>
-		
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-2 mx-auto">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">rubriques</h5>
-
-        <ul class="list-unstyled ">
-          <li>
-            <a href="#!">Accueil</a>
-          </li>
-          <li>
-            <a href="#!">A propos</a>
-          </li>
-          <li>
-            <a href="#!">Smartphones</a>
-          </li>
-          <li>
-            <a href="#!">Accessoires</a>
-          </li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-2 mx-auto">
-
-        <!-- Links -->
-    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">infos</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Contact</a>
-          </li>
-          <li>
-            <a href="#!">F.A.Q</a>
-          </li>
-          <li>
-            <a href="#!">C.G.U</a>
-          </li>
-          <li>
-            <a href="#!">Cookies</a>
-          </li>
-        </ul>
-
-      </div>
-     
-
-    </div>
-
-  </div>
+ <?php include('assets/inc/footer.php'); ?>
  
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> Yanis, JC , Mathieu et Sébastien</a>
-  </div>
-  <!-- Copyright -->
-
-</footer>
 
 	<script src="assets/js/jquery-3.5.1.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
