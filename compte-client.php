@@ -42,14 +42,20 @@
 <body>
 	<!-- Début du header-->
 
-	<div class="container-fluid" id="navcolor">
+<div class="contenaire-fluid" id="navcolor">
+	
+	<!-- Le contenaire va me centrer la zone nav bar du header-->
+	<div class="container">
 
-		<header class="d-flex justify-content-around">
+		<header class="flex-md-fill">
 			
-			<?php include('assets/inc/entete.php'); ?>
 			
+			 <?php include('assets/inc/entete.php'); ?>
+
 		</header>
+		
 	</div>
+</div>
     
     <div id="entete" class="position-relative">
         <div id="titre-position" class="position-absolute" style="width: 100%">
@@ -216,7 +222,7 @@
       "message": "Attention: Ce site n'est pas un site e-commerce, c'est un devoir d'évaluation pour le centre WF3 de Lille. Nous sommes des étudiants et utilisons des cookies pour comprendre l'analyse d'audience d'un site internet. ",
       "dismiss": "OK",
       "link": "privacy-policy.php",
-      "href": "https://www.demo-projet-ecole.net/privacy-policy"
+      "href": "https://www.demo-projet-ecole.net/privacy-policy.php"
     }
   });
   </script>

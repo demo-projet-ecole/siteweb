@@ -41,18 +41,25 @@
 
 <!-- Début du header-->
 
-<div class="container-fluid" id="navcolor">
-  <header class="d-flex justify-content-around"> 
-   
-	  <?php include('assets/inc/entete.php'); ?>
-   
-  </header>
+<div class="contenaire-fluid" id="navcolor">
+	
+	<!-- Le contenaire va me centrer la zone nav bar du header-->
+	<div class="container">
+
+		<header class="flex-md-fill">
+			
+			
+			 <?php include('assets/inc/entete.php'); ?>
+
+		</header>
+		
+	</div>
 </div>
 <div id="entete" class="position-relative">
   <div  id="titre-position" class="position-absolute" style="width: 100%">
     <h1 id="haut"  class="titre-header-bloc">Toute l'actualité de notre boutique</h1>
   </div>
-  <img src="assets/images/bandeau/img-bandeau-a-propos.jpg"  alt="Boutique multimédia pas cher" class=" w-100 img-fluid" /> </div>
+  <img src="assets/images/bandeau/news.jpg"  alt="Boutique lille" class=" w-100 img-fluid" /> </div>
 	
 	
 <main>
@@ -69,7 +76,7 @@
 					
 			<!-- 1er article -->
 
-			<div class="col-md-4 col-xs-12">
+			<div class="col-md-4 col-xs-12 zoomphotoB">
 
 				<figure><a href="lancement-du site-internet.php"><img src="assets/images/actualites/boutique.jpg"	alt="Article sur le lancement du site vitrine" class="img-thumbnail img-fluid"></a>
 				</figure>
@@ -95,7 +102,7 @@
 
 			<!-- 2eme article -->
 
-			<div class="col-md-4 col-xs-12">
+			<div class="col-md-4 col-xs-12 zoomphotoB">
 
 				<figure><a href="nouveaux-produits.php"><img src="assets/images/actualites/xiaomi.jpg"	alt="Produits Xiaomi" class="img-thumbnail img-fluid"></a>
 				</figure>
@@ -119,7 +126,7 @@
 
 			<!-- 3eme article -->
 
-			<div class="col-md-4 col-xs-12">
+			<div class="col-md-4 col-xs-12 zoomphotoB">
 
 				<figure><a href="nrj-mobile.php"><img src="assets/images/actualites/actu-nrj-800x480.jpg"	alt="NRJ mobile" class="img-thumbnail img-fluid"></a>
 				</figure>
@@ -159,7 +166,7 @@
 		<div class="padbot">
 			<form action="/leads-subscribing-newsletter" method="post">
 			<div><label for="email">E-mail :&nbsp;</label><input name="subscriber_email" type="email" id="email" />
-			<button class="btn-info" type="submit">Envoyer</button></div>
+			<button class="btn-info" type="submit">OK</button></div>
 			</form>
 		</div>
 	</div>
@@ -188,7 +195,7 @@ window.cookieconsent.initialise({
     "message": "Attention: Ce site n'est pas un site e-commerce, c'est un devoir d'évaluation pour le centre WF3 de Lille. Nous sommes des étudiants et utilisons des cookies pour comprendre l'analyse d'audience d'un site internet. ",
     "dismiss": "OK",
     "link": "privacy-policy.php",
-    "href": "https://www.demo-projet-ecole.net/privacy-policy"
+    "href": "https://www.demo-projet-ecole.net/privacy-policy.php"
   }
 });
 </script>

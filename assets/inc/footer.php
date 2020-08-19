@@ -32,9 +32,9 @@
         <h5 class="font-weight-bold text-uppercase mt-3 mb-4">En savoir +</h5>
         <ul class="list-unstyled">
           <li> <a href="contact.php">Contact</a> </li>
-          <li> <a href="#">F.A.Q</a> </li>
-          <li> <a href="#">C.G.U</a> </li>
-          <li> <a href="#">Cookies</a> </li>
+          <li> <a href="faq.php" title="Foire Aux Questions">F.A.Q</a> </li>
+          <li> <a href="cgv.php" title="Nos conditions de vente">C.G.V</a> </li>
+          <li> <a href="mentions-legales.php">Mentions légales</a> </li>
         </ul>
       </div>
       <!-- Grid column -->
@@ -44,9 +44,9 @@
         <!-- Réseaux sociaux -->
         <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Réseaux</h5>
         <ul class="list-unstyled">
-          <li> <a href="#" title="Prochainement ouvert">Facebook</a> </li>
-          <li> <a href="#" title="Prochainement ouvert">Twitter</a> </li>
-          <li> <a href="#" title="Prochainement ouvert">Instagram</a> </li>
+          <li> <a href="https://fr-fr.facebook.com/safpicnumerique/" target="_blank">Facebook</a> </li>
+          <li> <a href="https://twitter.com/safpicnumerique" target="_blank"> Twitter</a> </li>
+          <li> <a href="" title="Prochainement ouvert">Instagram</a> </li>
         </ul>
       </div>
       <!-- Grid column -->

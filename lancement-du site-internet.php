@@ -41,16 +41,25 @@
 
 <!-- Début du header-->
 
-<div class="container-fluid" id="navcolor">
-  <header class="d-flex justify-content-around"> 
-    <?php include('assets/inc/entete.php'); ?>
-  </header>
+<div class="contenaire-fluid" id="navcolor">
+	
+	<!-- Le contenaire va me centrer la zone nav bar du header-->
+	<div class="container">
+
+		<header class="flex-md-fill">
+			
+			
+			 <?php include('assets/inc/entete.php'); ?>
+
+		</header>
+		
+	</div>
 </div>
 <div id="entete" class="position-relative">
   <div  id="titre-position" class="position-absolute" style="width: 100%">
     <h1 id="haut"  class="titre-header-bloc">Toute l'actualité de notre boutique</h1>
   </div>
-  <img src="assets/images/bandeau/img-bandeau-a-propos.jpg"  alt="Boutique multimédia pas cher" class=" w-100 img-fluid" /> </div>
+  <img src="assets/images/bandeau/news.jpg"  alt="Boutique multimédia pas cher" class=" w-100 img-fluid" /> </div>
 	
 	
 <main>
@@ -95,17 +104,17 @@
 	
 
 	
-	 <h2 class="titre text-center">Une sélection de smartphones et d'accesoires à petits prix</h2>
+	 <h2 class="titre text-center">Une sélection de smartphones et d'accessoires à petits prix</h2>
 
 	<div class="container margtop padbot">
 				<div class="row">
-					<article class="col-md-6 col-xs-12">
+					<article class="col-md-6 col-xs-12 zoomphoto">
 						<h2 class="text-center">Vente de smartphones</h2>
 						<figure> <a href="smartphone.php"><img src="assets/images/home/vignettes-home/achat-de-smartphone.jpg"
 								alt="Vente de téléphone à prix réduits" class="img-thumbnail img-fluid"></a>
 						</figure>
 					</article>
-					<article class="col-md-6 col-xs-12">
+					<article class="col-md-6 col-xs-12 zoomphoto">
 						<h2 class="text-center">Vente d'accessoires</h2>
 						<figure><a href="accessoire.php"><img src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg"
 								alt="Nous disposons de tous les accessoires indispensables pour votre mobile"
@@ -138,7 +147,7 @@ window.cookieconsent.initialise({
     "message": "Attention: Ce site n'est pas un site e-commerce, c'est un devoir d'évaluation pour le centre WF3 de Lille. Nous sommes des étudiants et utilisons des cookies pour comprendre l'analyse d'audience d'un site internet. ",
     "dismiss": "OK",
     "link": "privacy-policy.php",
-    "href": "https://www.demo-projet-ecole.net/privacy-policy"
+    "href": "https://www.demo-projet-ecole.net/privacy-policy.php"
   }
 });
 </script>

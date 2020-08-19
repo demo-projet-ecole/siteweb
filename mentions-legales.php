@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/cookieconsent.min.css">
 	
-	<title>SAFPICSTORE - L'actualité de la boutique</title>
+	<title>SAFPICSTORE - MENTIONS LÉGALES</title>
 	
 	<!--Intégration du favicon -->
 	<link rel="manifest" href="assets/js/manifest.json">
@@ -59,13 +59,9 @@
 <div class="container-fluid">
    
 	
-	<div class="map-responsive">
-	   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2531.2372148207965!2d3.0619488157376606!3d50.622709979499525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d597222759bf%3A0xa022a0ebf77aef7d!2s2%20Rue%20Lamartine%2C%2059000%20Lille!5e0!3m2!1sfr!2sfr!4v1597560915372!5m2!1sfr!2sfr" width="100%" height="498" frameborder="0" style="border:1;" allowfullscreen="true" aria-hidden="false" tabindex="0"></iframe>
-		</div>
-	</div>	
 
 	
-<div class="container">
+<div id="faq" class="container">
 	  
  		
     <figure class="text-center">
@@ -73,53 +69,33 @@
 	</figure>
 	   
 	   
-        <h1 class="padtop text-center">Vous souhaitez nous contacter ?</h1>
-	  
-                               
-		 
-				<form method="POST" action="" enctype="multipart/form-data" class="contact-formulaire">
-		  <p><i>Complétez le formulaire. Les champs marqué par </i><em>*</em> sont <em>obligatoires</em></p>
-		  <fieldset>
+        <h1 class="padtop text-center padbot">Mentions légales</h1>
+	
+	
+<p>Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en l’économie numérique, il est précisé aux utilisateurs du site legalplace.fr l’identité des différents intervenants dans le cadre de sa réalisation et de son suivi.</p>
 
-			<legend>Contact</legend>
+<p><strong>Edition du site :</strong></p>
+	
+<p>Le site <a href="https://www.demo-projet-ecole.net" target="_blank"><strong>demo-projet-ecole.net</strong></a> est édité par la société Monsieur LAVAINE Sébastien, Magasin.safpic-asso.org est édité par l’association SAFPIC. Immatriculée à l’INSEE sous le numéro
+siren 881 150 619.</p>
 
-			<label for="nom">Nom <em>*</em></label>
-			  <!--placeholder: indication grisée -->
-			  <!--required: il faut renseigner le champs sinon la validation est bloquée-->
-			  <!--autofocus: le curseur est positionné dans cette case au chargement de la page-->
-			  <input autofocus="autofocus" required="required" id="nom" autocomplete="on"><br>
+<p><strong>Responsable de publication :</strong></p>
+<p><strong>Monsieur LAVAINE Sébastien</strong></p>
 
-			<label for="prenom">Prénom <em>*</em></label>
-			<input autofocus="autofocus" required="required" id="prenom" autocomplete="on"><br>
+<p><strong>Hébergeur :</strong><br> Le site <a href="https://www.demo-projet-ecole.net" target="_blank"><strong>demo-projet-ecole.net</strong></a> est hébergé par la société <strong></strong>AMEN SASU, 12-14, Rond Point des Champs Elysées 75008 Paris.
 
-			<label for="telephone">Portable</label>
-			  <!--type="tel": bascule le clavier sur un smartphone-->
-			  <!--pattern: expression régulière à vérifier pour pouvoir valider-->
-			<input type="tel" autofocus="autofocus"  id="telephone" ><br>
 
-			<label for="email">Email <em>*</em></label>
-			  <input type="email" autofocus="autofocus" required="" id="email"  autocomplete="on"><br>
-		  </fieldset>
+<p>Le stockage des données personnelles des utilisateurs est exclusivement réalisé sur les centres de données (« clusters ») localisés sur les serveurs de la société AMEN SASU</p>
 
-		  <fieldset>
+<p><strong>Nous contacter:</strong></p>
+<p><strong>Par email :</strong> <a href="mailto:webmaster@demo-projet-ecole.net">webmaster@demo-projet-ecole.net</a></p>
 
-			<legend>Votre message concerne :</legend>
+<p><strong>CNIL:</strong></p>
+<p>La société SAFPIC conservera dans ses systèmes informatiques et dans des conditions raisonnables de sécurité une preuve de la transaction comprenant le bon de commande et la facture.</p>
 
-			<label for="motif">Catégorie</label>
-			  <select required="required" id="motif">
-				<option value="achat" name="achat">Achat sur le site</option>
-				<option value="produit" name="produit">Information produit</option>
-				<option value="reclamation" name="reclamation">Réclamation</option>
-				<option value="avis" name="avis">Avis sur le site</option>
 
-			  </select><br>
-			  <label for="message">Votre message</label>
-
-			<textarea id="comments"></textarea>
-		  </fieldset>
-
-		  <p><input class="btn btn-outline-info" type="submit" value="Envoyer"></p>
-		</form>
+Conformément aux dispositions de la loi 78-17 du 6 janvier 1978 modifiée, l’utilisateur dispose d’un droit d’accès, de modification et de suppression des informations collectées par LegalPlace. Pour exercer ce droit, il reviendra à l’utilisateur d’envoyer un message à l’adresse suivante :<br> <a href="mailto:webmaster@demo-projet-ecole.net">webmaster@demo-projet-ecole.net</a>
+<p class="padbot"></p>		
 		   	   
 </div>
 

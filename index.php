@@ -39,15 +39,20 @@
 	
 </head>
 
-<body>
+<body class="justify-content-around">
 	<!-- Début du header-->
+<div class="contenaire-fluid" id="navcolor">
+	
+	<!-- Le contenaire va me centrer la zone nav bar du header-->
+	<div class="container">
 
-	<div class="container-fluid" id="navcolor">
-
-		<header class="d-flex justify-content-around">
+		<header class="flex-md-fill">
+			
+			
 			 <?php include('assets/inc/entete.php'); ?>
- 
+
 		</header>
+		
 	</div>
 
 	<!-- implémentation du carousel -->
@@ -62,50 +67,44 @@
 				<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
 			</ol>
 			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img src="assets/images/header/slide-promo-1.jpg" class="d-block w-100 img-fluid" alt="...">
+				<div class="carousel-item active"> <a href="smartphone.php"><img src="assets/images/header/slide-promo-1.jpg" class="d-block w-100 img-fluid" alt="téléphone low cost"></a>
 					<div class="carousel-caption d-none d-md-block">
 					</div>
 				</div>
-				<div class="carousel-item">
-					<img src="assets/images/header/slide-promo-2.jpg" class="d-block w-100 img-fluid" alt="...">
+				<div class="carousel-item"> <a href="smartphone.php"><img src="assets/images/header/slide-promo-4.png" class="d-block w-100 img-fluid" alt="mobile lyceen promo"></a>
 					<div class="carousel-caption d-none d-md-block">
 					</div>
 				</div>
-				<div class="carousel-item">
-					<img src="assets/images/header/slide-promo-1.jpg" class="d-block w-100 img-fluid" alt="...">
+				<div class="carousel-item"> <a href="smartphone.php"><img src="assets/images/header/slide-promo-5.png" class="d-block w-100 img-fluid" alt="discount promos phone"></a>
 					<div class="carousel-caption d-none d-md-block">
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
+	
+</div>
 
 	<!--fin du carousel -->
 	<!-- MAIN-->
 	<main>
 
 		<div class="container-fluid">
-			<div class="container">
-				<h1 class="titre text-center">
-					Une sélection de smartphones et d'accesoires à petits prix
-				</h1>
-			</div>
+			<div class="container"> </div>
 
 			<!--ARTICLE-->
 			<div class="container margtop">
 				<div class="row">
-					<article class="col-md-6 col-xs-12">
+					<article class="col-md-6 col-xs-12 zoomphoto">
 						<h2 class="text-center">Vente de smartphones</h2>
 						<figure> <a href="smartphone.php"><img src="assets/images/home/vignettes-home/achat-de-smartphone.jpg"
 								alt="Vente de téléphone à prix réduits" class="img-thumbnail img-fluid"></a>
 						</figure>
 					</article>
-					<article class="col-md-6 col-xs-12">
+					<article class="col-md-6 col-xs-12 zoomphoto">
 						<h2 class="text-center">Vente d'accessoires</h2>
 						<figure><a href="accessoire.php"><img src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg"
-								alt="Nous disposons de tous les accessoires indispensables pour votre mobile"
+								alt="Périphériques mobile"
 								class="img-thumbnail img-fluid"></a></figure>
 					</article>
 				</div>
@@ -116,66 +115,61 @@
 
 
 			<div class="container">
-				<h2 class="text-center">
+				<h2 class="text-center padbot">
 					Les dernières offres et informations de notre boutique
 				</h2>
 			</div>
 			<!--ARTICLE 2eme parties-->
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3 col-xs-12">
+					<div class="col-md-3 col-xs-12 zoomphotoB">
 						<figure>
-							<img class="img-fluid img-thumbnail"
-								src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg"
-								alt="Les actualités de la boutique">
+							<a href="nouveaux-produits.php">
+							<img class="img-fluid img-thumbnail" src="assets/images/actualites/xiaomi.jpg" alt="Les actualités de la boutique">
+							</a>
 							<figcaption>
-								<span class="text-black-50">2 juillet 2020</span>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsum amet beatae
-									recusandae, quam culpa mollitia, error velit ratione minus ducimus vero earum fugiat
-									maxime assumenda! Dignissimos, earum consequuntur! Reiciendis.</p>
+								<span class="text-black-50">21 août 2020</span>
 							</figcaption>
 						</figure>
+					  <p>Afin de répondre à la demande de nos clients, nous continuons d’étoffer nos offres produits au fil des mois. [<a href="nouveaux-produits.php" class="btn-outline-dark" role="button">En savoir +</a>…]</p>
+						
+						
 					</div>
-					<div class="col-md-3 col-xs-12">
+					<div class="col-md-3 col-xs-12 zoomphotoB">
 
-						<figure><img class="img-fluid img-thumbnail"
-								src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg"
-								alt="Les actualités de la boutique">
+						<figure> <a href="nrj-mobile.php"><img class="img-fluid img-thumbnail" src="assets/images/actualites/actu-nrj-800x480.jpg" alt="Les actualités de la boutique"></a>
 							<figcaption>
-								<span class="text-black-50">2 juillet 2020</span>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsum amet beatae
-									recusandae, quam culpa mollitia, error velit ratione minus ducimus vero earum fugiat
-									maxime assumenda! Dignissimos, earum consequuntur! Reiciendis.</p>
+								<span class="text-black-50">14 août 2020</span>
 							</figcaption>
 						</figure>
+					  <p>A partir d’aujourd’hui, venez découvrir et souscrire directement en boutique un forfait NRJ Mobile.<br>[<a href="nrj-mobile.php" class="btn-outline-dark" role="button">En savoir +</a>…]</p>
+						
 					</div>
-					<div class="col-md-3 col-xs-12">
+					<div class="col-md-3 col-xs-12 zoomphotoB">
 
-						<figure>
-							<img class="img-fluid img-thumbnail"
-								src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg"
-								alt="Les actualités de la boutique">
+						<figure> <a href="accessoire.php"><img class="img-fluid img-thumbnail" src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg"
+								alt="Les actualités de la boutique"></a>
 							<figcaption>
-								<span class="text-black-50">2 juillet 2020</span>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsum amet beatae
-									recusandae, quam culpa mollitia, error velit ratione minus ducimus vero earum fugiat
-									maxime assumenda! Dignissimos, earum consequuntur! Reiciendis.</p>
+								<span class="text-black-50">2 août 2020</span>
 							</figcaption>
-						</figure>
+					  </figure>
+					  <p>Les Air Pods de première génération sont au prix incroyable de 120 euros. dépêchez-vous !<br>[<a href="accessoire.php" class="btn-outline-dark " role="button">En savoir +</a>…]</p>
+						    
+						
 					</div>
-					<div class="col-md-3 col-xs-12">
+					<div class="col-md-3 col-xs-12 zoomphotoB">
 
-						<figure><img class="img-fluid img-thumbnail"
-								src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg"
-								alt="Les actualités de la boutique">
+						<figure><a href="lancement-du-site-internet.php"><img class="img-fluid img-thumbnail"
+								src="assets/images/actualites/boutique.jpg"
+								alt="Les actualités de la boutique"></a>
 							<figcaption>
 								<span class="text-black-50">2 juillet 2020</span>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsum amet beatae
-									recusandae, quam culpa mollitia, error velit ratione minus ducimus vero earum fugiat
-									maxime assumenda! Dignissimos, earum consequuntur! Reiciendis.</p>
 							</figcaption>
-						</figure>
-					</div>
+					  </figure>
+							<p>SAFPIC met en ligne son site internet ! Un projet qui tenait à cœur à toute l’équipe<br> [<a href="lancement-du-site-internet.php" class="btn-outline-dark" role="button">En savoir +</a>…]</p>
+						
+						
+				  </div>
 				</div>
 			</div>
 
@@ -183,33 +177,36 @@
 
 			<!--logo et texte-->
 			<div class="container" id="logo2">
-				<figure><img src="assets/images/logos/logo-safpic-fond-transparent.png" alt=""></figure>
+				<figure><img src="assets/images/logos/logo-safpic-fond-transparent.png" class="logo-hidden padtop" alt="Logo Safpic"></figure>
 				<h2 class="text-center">SAFPIC : Le meilleur choix, près de chez vous </h2>
 			</div>
 			<!--article et bouton-->
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-xs-12 padtop">
-						<p class="padtop">Forte de ses 10 ans d’expérience dans les métiers de la téléphonie mobile et de la vente de matériel associée, notre équipe vous conseille et vous apporte des solutions adaptées à votre budget tout en assurant la pérennité de vos smartphone et téléphones mobiles.</p>
+						<p class="padtop">Forte de ses 10 ans d’expérience dans les métiers de la téléphonie mobile et de la vente de matériel associée, notre équipe vous conseille et vous apporte des solutions adaptées à votre budget tout en assurant la pérennité de vos smartphones et téléphones mobiles.</p>
 							
 						<a href="a-propos-du-site.php" class="btn btn-outline-info btn-home-article" role="button">En savoir +</a>
 					</div>
 					<div class="col-md-6 col-xs-12 padtop" id="coordonnees">
-						<strong>Nos horaires</strong>
-						<p>nous sommes ouvert du lundi au samedi de 10h a 17h</p>
+						<strong>Nos horaires :</strong>
+						<p>Nous sommes ouverts du lundi au samedi de 10h a 17h</p>
 						<strong>Nos coordonnées</strong>
-						<p>68 avenue lamartine 59000 Lille</p>
-						<p>tel:0325895400</p>
-						<p>mail:<a href="mailto:contact@safpic.f"> contact@safpic.fr</a></p>
+					  <p>68 avenue Lamartine 59000 Lille</p>
+						<p>Tel:0325895400</p>
+						<p>Mail:<a href="mailto:contact@safpic.f"> contact@safpic.fr</a></p>
 					</div>
 				</div>
 			</div>
 			<div class="container text-center margtop">
-				<h3 class="padtop">Abonnement a la newsletter</h3>
+				<h3 class="padtop">Abonnement à la newsletter</h3>
 				<div class="padbot">
 					<form action="/leads-subscribing-newsletter" method="post">
-					<div><label for="email">E-mail :&nbsp;</label><input name="subscriber_email" type="email" id="email" />
-					<button class="btn-info" type="submit">Envoyer</button></div>
+				<div>
+				  <label for="email">E-mail :&nbsp;</label>
+					<input name="subscriber_email" type="email" id="email" size="15" />
+					<button class="btn-info" type="submit">OK</button>
+				</div>
 					</form>
 				</div>
 			</div>
@@ -243,7 +240,7 @@ window.cookieconsent.initialise({
     "message": "Attention: Ce site n'est pas un site e-commerce, c'est un devoir d'évaluation pour le centre WF3 de Lille. Nous sommes des étudiants et utilisons des cookies pour comprendre l'analyse d'audience d'un site internet. ",
     "dismiss": "OK",
     "link": "privacy-policy.php",
-    "href": "https://www.demo-projet-ecole.net/privacy-policy"
+    "href": "https://www.demo-projet-ecole.net/privacy-policy.php"
   }
 });
 </script>

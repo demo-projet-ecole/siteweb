@@ -43,18 +43,25 @@
 
     <!-- Début du header-->
 
-    <div class="container-fluid" id="navcolor">
-        <header class="d-flex justify-content-around">
+<div class="contenaire-fluid" id="navcolor">
+	
+	<!-- Le contenaire va me centrer la zone nav bar du header-->
+	<div class="container">
 
-          <?php include('assets/inc/entete.php'); ?>
+		<header class="flex-md-fill">
 			
-        </header>
-    </div>
+			
+			 <?php include('assets/inc/entete.php'); ?>
+
+		</header>
+		
+	</div>
+</div>
     <div id="entete" class="position-relative">
         <div id="titre-position" class="position-absolute" style="width: 100%">
             <h1 class="titre-header-bloc">Vente Accesoires</h1>
         </div>
-        <img src="assets/images/bandeau/img-bandeau-a-propos.jpg" alt="Boutique multimédia pas cher"
+        <img src="/assets/images/bandeau/accessoires.jpg" alt="Boutique multimédia pas cher"
             class=" w-100 img-fluid" />
 
     </div>
@@ -71,7 +78,7 @@
 		</div>
             <div class="container">
                 <h1 class="titre text-center">
-                    Vente accessoires d'origines et multi-marques
+                   Vente accessoire d'origines et multimarque
                 </h1>
             </div>
             <!--Presentation smartphone-->
@@ -79,27 +86,22 @@
                 <div class="row" id="alignPT">
                     <div class="col-md-6 col-sm-12">
                         <h2 id="sizeh2">Un vaste choix d'accessoires pour vos smartphones favoris</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta necessitatibus, maiores minus
-                            rerum
-                            facilis repellat neque sapiente veritatis aliquid illo ab perspiciatis totam nulla! Sunt
-                            expedita
-                            corporis eius ducimus at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                            quidem
-                            reprehenderit qui porro! Debitis doloribus iusto eius temporibus. Voluptates dolore id,
-                            nesciunt
-                            in
-                            sit harum aperiam voluptatum? Ratione, reprehenderit dolore.
+                        <p>Vous avez également la possibilité de retrouver en boutique un large panel d'accessoires dédiées à vos téléphones. Nous proposons différents types d'accessoires, des produits de fabricants d’origine (Apple, Samsung...) et des produits multi-marques afin de respecter votre budget et de répondre à toutes vos demandes.
                         </p>
-                        <div class="grid">
-							<img src="assets/images/pictos/correct.png" alt="smartphones neuf">
-                            <span>Coques, câbles de charge et écouteurs d'origine</span>
-						
-							<img src="assets/images/pictos/correct.png" alt="smartphones reconditionnés">
-                            <span class="padtop"> Airpods et Airpods pro</span>
-							
-							<img src="assets/images/pictos/correct.png" alt="smartphones sans forfait">
-                            <span class="padtop"> Des protections en verre trempé pour votre écrans</span>
+						  <div class="grid">
+                            <span>
+								<img src="assets/images/pictos/correct.png" alt="smartphones neuf">
+								Coques, câbles de charge et écouteurs d'origine</span>
+							  
+                            <span class="padtop">
+								<img src="assets/images/pictos/correct.png" alt="smartphones reconditionnés">
+								Tous les casques Bluetooth et filaires</span>
+							  
+                            <span class="padtop">
+								  <img src="assets/images/pictos/correct.png" alt="smartphones sans forfait">
+								  Des protections en verre trempé pour votre écran</span>
                         </div>
+						
                     <!--photo smartphone-->
                 </div>
 					 <div class=" col-md-6 col-sm-12">
@@ -122,11 +124,9 @@
                     </div>
                     <div class="flex padtop PU col-md-4 col-sm-12 middle text-center space">
                         <!--PU = PANIER + USER-->
-                        <figure class="padright">
-                            <img src="assets/images/pictos/user.png" alt="icon user"> connexion
+                        <figure class="padright"> <a href="compte-client.php"><img src="assets/images/pictos/user.png" alt="icon user"> connexion</a>
                         </figure>
-                        <figure class="padleft">
-                            <img src="assets/images/pictos/panier.png" alt="icon panier"> panier
+                        <figure class="padleft"> <a><img src="assets/images/pictos/panier.png" alt="icon panier"></a> panier
                         </figure>
                     </div>
                 </div>
@@ -134,7 +134,7 @@
             <!--DEUXIEME TITRE H1 -->
             <div class="container">
                 <h1 class="titre text-center">
-                    Selection d'accesoires du moment uniquement en achat en ligne
+                    Sélection d'accessoires du moment uniquement en achat en ligne
                 </h1>
             </div>
 
@@ -289,7 +289,7 @@
 				
             </div>
 
-            <p class=" container pad top margtop larger">Pour vous aidez à faire votre choix, consulter notre foire a question en cliquant <a href="">ici</a></p> <!--lié page FAQ ICI-->
+            <p class=" container pad top margtop larger">Pour vous aidez à faire votre choix, consulter notre foire a question en cliquant <a href="faq.php" target="_blank">ici</a></p> <!--lié page FAQ ICI-->
             
         <!--EXEMPLE ACCESSOIRES-->
             <div class="container">
@@ -300,7 +300,7 @@
 
             <div class="container padtop">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-12 margright" >
+                    <div class="col-lg-3 col-md-6 col-sm-12 margright zoomphotoB" >
                         <figure>
                             <img  class ="img-fluid img-thumbnail" src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg" alt="ACCESSOIRES--">
                         </figure>
@@ -311,7 +311,7 @@
                                 maxime assumenda! Dignissimos, earum consequuntur! Reiciendis.</p>
                         </figcaption>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 margright" >
+                    <div class="col-lg-3 col-md-6 col-sm-12 margright zoomphotoB" >
                         <figure>
                             <img class="img-fluid img-thumbnail" src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg" alt="ACCESSOIRES--">
                         </figure>
@@ -322,7 +322,7 @@
                                 maxime assumenda! Dignissimos, earum consequuntur! Reiciendis.</p>
                         </figcaption>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 margright" >
+                    <div class="col-lg-3 col-md-6 col-sm-12 margright zoomphotoB" >
                         <figure>
                             <img class="img-thumbnail img-fluid" src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg" alt="ACCESSOIRES--">
                         </figure>
@@ -333,7 +333,7 @@
                                 maxime assumenda! Dignissimos, earum consequuntur! Reiciendis.</p>
                         </figcaption>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12" >
+                    <div class="col-lg-3 col-md-6 col-sm-12 zoomphotoB" >
                         <figure>
                             <img class="img-fluid img-thumbnail" src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg" alt="ACCESSOIRES--">
                         </figure>
@@ -378,7 +378,7 @@
       "message": "Attention: Ce site n'est pas un site e-commerce, c'est un devoir d'évaluation pour le centre WF3 de Lille. Nous sommes des étudiants et utilisons des cookies pour comprendre l'analyse d'audience d'un site internet. ",
       "dismiss": "OK",
       "link": "privacy-policy.php",
-      "href": "https://www.demo-projet-ecole.net/privacy-policy"
+      "href": "https://www.demo-projet-ecole.net/privacy-policy.php"
     }
   });
   </script>

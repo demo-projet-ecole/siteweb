@@ -43,16 +43,25 @@
 
     <!-- Début du header-->
 
-    <div class="container-fluid" id="navcolor">
-        <header class="d-flex justify-content-around">
-           <?php include('assets/inc/entete.php'); ?>
-        </header>
-    </div>
+<div class="contenaire-fluid" id="navcolor">
+	
+	<!-- Le contenaire va me centrer la zone nav bar du header-->
+	<div class="container">
+
+		<header class="flex-md-fill">
+			
+			
+			 <?php include('assets/inc/entete.php'); ?>
+
+		</header>
+		
+	</div>
+</div>
     <div id="entete" class="position-relative">
         <div id="titre-position" class="position-absolute" style="width: 100%">
             <h1 class="titre-header-bloc">Vente de Smartphones</h1>
         </div>
-        <img src="assets/images/bandeau/img-bandeau-a-propos.jpg" alt="Boutique multimédia pas cher"
+        <img src="assets/images/bandeau/telephone-mobile.png" alt="Boutique multimédia pas cher"
             class=" w-100 img-fluid" />
 
     </div>
@@ -78,26 +87,14 @@
                 <div class="row" id="alignPT">
                     <div class="col-md-6 col-sm-12">
                         <h2 id="sizeh2">Vente de mobiles neufs ou reconditionnés</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta necessitatibus, maiores minus
-                            rerum
-                            facilis repellat neque sapiente veritatis aliquid illo ab perspiciatis totam nulla! Sunt
-                            expedita
-                            corporis eius ducimus at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                            quidem
-                            reprehenderit qui porro! Debitis doloribus iusto eius temporibus. Voluptates dolore id,
-                            nesciunt
-                            in
-                            sit harum aperiam voluptatum? Ratione, reprehenderit dolore.
+                        <p>Retrouvez également au sein de notre boutique SAFPIC, toute une gamme de smartphone neufs ou reconditionnés à la vente. Nos conseillers sont disponibles afin de vous proposer le smartphone idéal et adapté à votre utilisation. Parmi notre large gamme de téléphone mobile disponibles, retrouvez :
                         </p>
                         <div class="grid">
                             <span><img src="assets/images/pictos/correct.png" alt="smartphones neuf"> Des smartphones neufs à petits
                                 prix
 
                             </span>
-                            <span class="padtop"><img src="assets/images/pictos/correct.png" alt="smartphones reconditionnés"> Des téléphones
-                                reconditionnés et
-                                garanti
-                                1an
+                            <span class="padtop"><img src="assets/images/pictos/correct.png" alt="smartphones reconditionnés"> Des téléphones reconditionnés et garantis 1 an
                             </span>
                             <span class="padtop"><img src="assets/images/pictos/correct.png" alt="smartphones sans forfait"> Des smartphones
                                 sans forfait imposé
@@ -126,11 +123,9 @@
                     </div>
                     <div class="flex padtop PU col-md-4 col-sm-12 middle text-center space">
                         <!--PU = PANIER + USER-->
-                        <figure class="padright">
-                            <img src="assets/images/pictos/user.png" alt="icon user"> connexion
+                        <figure class="padright"> <a href="compte-client.php"><img src="assets/images/pictos/user.png" alt="icon user"> connexion</a>
                         </figure>
-                        <figure class="padleft">
-                            <img src="assets/images/pictos/panier.png" alt="icon panier"> panier
+                        <figure class="padleft"> <a><img src="assets/images/pictos/panier.png" alt="icon panier"></a> panier
                         </figure>
                     </div>
                 </div>
@@ -138,7 +133,7 @@
             <!--DEUXIEME TITRE H1 -->
             <div class="container">
                 <h1 class="titre text-center">
-                    Selection des smartphones du moment uniquement en achat en ligne
+                    Sélection des smartphones du moment uniquement en achat en ligne
                 </h1>
             </div>
 
@@ -174,7 +169,7 @@
 
                         <div class="col-3 col-md-3 col-sm-12">
 						   <article>
-                            <h2 class="d-none d-lg-block sizetitle">Iphone X reconditionnés grade A</h2>
+                            <h2 class="d-none d-lg-block sizetitle">Iphone X reconditionné grade A</h2>
                             <p class="d-none d-lg-block">500€ - SAFPICSTORE</p>
                             <a href="a-propos-du-site.php" class="btn btn-outline-info" role="button">En savoir +</a>
 						   </article>
@@ -182,9 +177,9 @@
 
 
                         <!--  ITEM 2 -->
+                          <!--  debut Carroussel -->
 
-                        <!--  debut Carroussel -->
-                        <div id="carouselTel2" class="carousel slide col-md-3 col-sm-12" data-ride="carousel">
+                          <div id="carouselTel2" class="carousel slide col-md-3 col-sm-12 " data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg"
@@ -195,7 +190,7 @@
                                         class="d-block w-100" alt="Smartphones2">
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#carouseTel2" role="button" data-slide="prev">
+                            <a class="carousel-control-prev" href="#carouselTel2" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
@@ -209,11 +204,14 @@
 
                         <div class="col-3 col-md-3 col-sm-12">
 						   <article>
-                            <h2 class="d-none d-lg-block sizetitle">Iphone X reconditionnés grade A</h2>
+                            <h2 class="d-none d-lg-block sizetitle">Iphone X reconditionné grade A</h2>
                             <p class="d-none d-lg-block">500€ - SAFPICSTORE</p>
                             <a href="a-propos-du-site.php" class="btn btn-outline-info" role="button">En savoir +</a>
 						   </article>
                         </div>
+
+
+
                 
             </div>
 			</div>
@@ -248,7 +246,7 @@
 
                         <div class="col-3 col-md-3 col-sm-12">
 						   <article>
-                            <h2 class="d-none d-lg-block sizetitle">Iphone X reconditionnés grade A</h2>
+                            <h2 class="d-none d-lg-block sizetitle">Iphone X reconditionné grade A</h2>
                             <p class="d-none d-lg-block">500€ - SAFPICSTORE</p>
                             <a href="a-propos-du-site.php" class="btn btn-outline-info" role="button">En savoir +</a>
 						   </article>
@@ -283,7 +281,7 @@
 
                         <div class="col-3 col-md-3 col-sm-12">
 						   <article>
-                            <h2 class="d-none d-lg-block sizetitle">Iphone X reconditionnés grade A</h2>
+                            <h2 class="d-none d-lg-block sizetitle">Iphone X reconditionné grade A</h2>
                             <p class="d-none d-lg-block">500€ - SAFPICSTORE</p>
                             <a href="a-propos-du-site.php" class="btn btn-outline-info" role="button">En savoir +</a>
 						   </article>
@@ -292,7 +290,7 @@
             
             </div>
 
-            <p class=" container pad top margtop larger">Pour vous aidez à faire votre choix, consulter notre foire a question en cliquant <a href="">ici</a></p> <!--lié page FAQ ICI-->
+            <p class=" container pad top margtop larger">Pour vous aidez à faire votre choix, consulter notre foire a question en cliquant <a href="faq.php" target="_blank">ici</a></p> <!--lié page FAQ ICI-->
             
         <!--EXEMPLE ACCESSOIRES-->
             <div class="container">
@@ -303,7 +301,7 @@
 
             <div class="container padtop">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-12 margright" >
+                    <div class="col-lg-3 col-md-6 col-sm-12 margright zoomphotoB" >
                         <figure>
                             <img  class ="img-fluid img-thumbnail" src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg" alt="ACCESSOIRES--">
                         </figure>
@@ -314,7 +312,7 @@
                                 maxime assumenda! Dignissimos, earum consequuntur! Reiciendis.</p>
                         </figcaption>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 margright" >
+                    <div class="col-lg-3 col-md-6 col-sm-12 margright zoomphotoB" >
                         <figure>
                             <img class="img-fluid img-thumbnail" src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg" alt="ACCESSOIRES--">
                         </figure>
@@ -325,7 +323,7 @@
                                 maxime assumenda! Dignissimos, earum consequuntur! Reiciendis.</p>
                         </figcaption>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 margright" >
+                    <div class="col-lg-3 col-md-6 col-sm-12 margright zoomphotoB" >
                         <figure>
                             <img class="img-thumbnail img-fluid" src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg" alt="ACCESSOIRES--">
                         </figure>
@@ -336,7 +334,7 @@
                                 maxime assumenda! Dignissimos, earum consequuntur! Reiciendis.</p>
                         </figcaption>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12" >
+                    <div class="col-lg-3 col-md-6 col-sm-12 zoomphotoB" >
                         <figure>
                             <img class="img-fluid img-thumbnail" src="assets/images/home/vignettes-home/achat-accessoires-mobile.jpg" alt="ACCESSOIRES--">
                         </figure>
@@ -381,7 +379,7 @@
       "message": "Attention: Ce site n'est pas un site e-commerce, c'est un devoir d'évaluation pour le centre WF3 de Lille. Nous sommes des étudiants et utilisons des cookies pour comprendre l'analyse d'audience d'un site internet. ",
       "dismiss": "OK",
       "link": "privacy-policy.php",
-      "href": "https://www.demo-projet-ecole.net/privacy-policy"
+      "href": "https://www.demo-projet-ecole.net/privacy-policy.php"
     }
   });
   </script>

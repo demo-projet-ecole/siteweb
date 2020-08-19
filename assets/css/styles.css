@@ -1,438 +1,362 @@
 @charset "UTF-8";
-
-
 /*Mise à jour du fichier le 14 aout 18h08*/
-
-
 /* CSS global */
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-	background: #f4f4f4;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
-
- img {border: 0; }
-
+img {
+  border: 0;
+}
 a {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
-
 a:hover {
-	text-decoration:underline;
+  text-decoration: underline;
 }
-
 h1.titre {
-    margin:30px 0 30px 0;
-	font-size: 30px;
-    line-height: 40px;
-    font-weight: 500;
+  margin: 30px 0 30px 0;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
 }
-
-
 .padbot {
-	
-	padding-bottom: 30px; /*Pour un padding bottom sur un Div*/
+  padding-bottom: 30px; /*Pour un padding bottom sur un Div*/
 }
-
 /*footer*/
-
 .stylish-color-dark {
-	
-	background: black;
-	color:white;
-	
+  background: black;
+  color: white;
+}
+.stylish-color-dark a {
+  color: white
+}
+.navbar-nav, nav-link {
+  text-align: center !important;
+}
+.form-control {
+  width: 63%;
+  margin-right: 12px;
+}
+.form-inline {
+  justify-content: center;
 }
 
-.stylish-color-dark a {
-	color: white
+.dropdown-menu {
+  background-color:black;
+  padding:inherit;
+  border: none;
+  
 }
+
+.dropdown-menu a:hover{
+	border:none;
+}
+
+.dropdown-item {
+	
+    text-align: center;
+	color: white;
+	border: solid 1px #70D64C;
+}
+
+.padlogo {
+	padding:34px 0 25px 0;
+}
+
 
 /* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
-	/*corrige le pb d'alignement du burger*/
-	.navbar {
-    padding: 1.2rem 0.6rem !important;
-    left: 5px !important;
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .navbar-nav, nav-link {
+    text-align: center !important;
+    font-size: 1.5rem !important;
+  }
+  h1.titre {
+    display: none; /*Suppression du titre en responsive phone puis du carousel*/
+  }
+  #carousel-thumb {
+    display: none;
+  }
+	.logo-hidden {
+		display: none;
+	}
 }
-	  
-	  h1.titre {
-  	display: none; /*Suppression du titre en responsive phone puis du carousel*/
-}
-	  
-	  #carousel-thumb {
-		  display: none;
-	  }
-	  
-}
-
-
-
 /* Landscape correction burger */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-	  
-	  
-	.navbar {
-    
-    top:1px!important;
-    
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+ 
+	.form-inline {
+  justify-content: center;
 }
 
 }
-	  
-
-
 .padtop {
-    padding-top: 20px;
-	
+  padding-top: 20px;
 }
 .margtop {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 .bg-noir {
-    background-color: black;
+  background-color: black;
 }
 /**************************** début du header**********************************************
 *********************************************************
 **************************/
-
-
 #logo {
-    padding: 10px 0;
-    display: flex;
-    align-items: center;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
 }
-
-
-
 /* navbar */
 #navcolor {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 .bg-light {
-    background-color: black!important; /*!importan pour que votre style neutralise celuis de Bootstrap*/
-} 
-
+  background-color: black !important; /*!importan pour que votre style neutralise celuis de Bootstrap*/
+}
 .nav-link {
-    color:white!important;
+  color: white !important;
 }
-
-
 .navbar-light .navbar-toggler { /* Le style va faire apparaitre le burger bootstrap grâce au fond en blanc */
-    color: rgb(230 14 14);
-    background: white;
+  color: rgb(230 14 14);
+  background: white;
 }
-
-
 /* MAIN HOME */
-
 .lignenoir {
-    border: none;
-    border-top: 2px solid;
-	color:#D4D4D4;
+  border: none;
+  border-top: 2px solid;
+  color: #D4D4D4;
 }
-
-
 .calltoaction {
-	 box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.5);
-	margin:30px 0 30px 0;
-	
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.5);
+  margin: 30px 0 30px 0;
 }
 .flex {
-    display: flex;
+  display: flex;
 }
 #logo2 {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 #coordonnees {
-    background-color: rgb(206, 205, 205);
-    border-radius: 1.5rem;
+  background-color: rgb(206, 205, 205);
+  border-radius: 1.5rem;
 }
-
 .btn-home-article {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
-
-
 .footul {
-    list-style: none;
-    display: flex;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
 .foota {
-    color: white;
-    padding: 0 15px;
+  color: white;
+  padding: 0 15px;
 }
-
 /* FOOTER */
-
 .middle {
-    margin: auto;
+  margin: auto;
 }
-
-
 /*************************************************
 *************************Page à propos*************/
-
 /*#entete{
 	
 	position:relative;
 	
 }*/
-
 #titre-position {
-	
-	
-	background-color: rgba(0,0,0,0.5);
-	height:70px;
-	bottom: 0;/*aligne verticalement en bas du container*/
-	color:white;
-	padding-left:20px;
-	font-weight: bold;
-	display: flex;
-	align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 70px;
+  bottom: 0; /*aligne verticalement en bas du container*/
+  color: white;
+  padding-left: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
 }
-
 h1.titre-header-bloc {
-   
-	font-size: 30px;
-   
+  font-size: 30px;
 }
-
 /* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
-
-h1.titre-header-bloc {
-	font-size: 20px;
-	
-	}
-	  
-	  
-#titre-position {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  h1.titre-header-bloc {
+    font-size: 20px;
+  }
+  #titre-position {
     height: 41px;
     top: none;
-}
-
+  }
 }
 /*
 **********************************/
- h2.sous-titre  {
-	font-size: 15px;
+h2.sous-titre {
+  font-size: 15px;
 }
-
-
 .resume, .stylo p {
-	
-	padding:20px;
-	overflow: hidden;
+  padding: 20px;
+  overflow: hidden;
 }
-
 .img-circle {
-    border-radius: 50%;
+  border-radius: 50%;
 }
-
-
 /******************************* SMARTPHONE ***************************/
 .grid {
-    display: grid;
+  display: grid;
 }
 #LPU {
-    align-items: center;
-    justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .PU {
-    background-color: rgba(224, 224, 224, 0.822);
+  background-color: rgba(224, 224, 224, 0.822);
 }
 .padleft {
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
 .padright {
-    padding-right: 1rem;
+  padding-right: 1rem;
 }
 #alignPT {
-    align-items: center;
+  align-items: center;
 }
 #sizeh2 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 .space {
-    justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 .sizetitle {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 .larger {
-    font-size: larger;
+  font-size: larger;
 }
 .margtop {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 .margbottom {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
-
 /* Compte client */
 .sign-in {
-    border: 3px solid greenyellow;
-    border-radius: 2rem;
-    background-color: skyblue;
-    font-family: sans-serif;
-    max-width: fit-content;
+  border: 3px solid greenyellow;
+  border-radius: 2rem;
+  background-color: skyblue;
+  font-family: sans-serif;
+  max-width: fit-content;
 }
 .btnsignin {
-    border-radius: 20px;
-    border: 2px solid white;
-    background-color: yellowgreen;
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 12px 45px;
-    margin-top: 15px;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: yellowgreen;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  margin-top: 15px;
 }
 .btnsignup {
-    border-radius: 20px;
-    border: 2px solid white;
-    background-color: yellowgreen;
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 12px 45px;
-    margin-top: 15px;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: yellowgreen;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  margin-top: 15px;
 }
-
 .inputsignin {
-    border-radius: 2rem;
-    border: 2px solid yellowgreen;
-    padding-left: 10px;
-    font-weight: lighter;
+  border-radius: 2rem;
+  border: 2px solid yellowgreen;
+  padding-left: 10px;
+  font-weight: lighter;
 }
 .outnone {
-    outline: none;
+  outline: none;
 }
 .bold {
-    font-weight: bolder;
+  font-weight: bolder;
 }
-
 form.grid p {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 .wesh {
-    height: 30px;
+  height: 30px;
 }
 input.formcontrol {
-    width: -1% !important;
+  width: -1% !important;
 }
-
-
+.grid img {
+  padding: 5px;
+}
 /***************************Page Actu **********************************/
-
 h2.titre-actu { /*Pour le titre de chaque actu*/
-	font-size: 1.2rem;
-	padding: 10px 0 10px 0;
+  font-size: 1.2rem;
+  padding: 10px 0 10px 0;
 }
-
 .separation img {
-	padding: 5px; /*Pour avoire un espacement entre le picto et la date*/
+  padding: 5px; /*Pour avoire un espacement entre le picto et la date*/
 }
-
 .centrage-image {
-	
- margin: 0 auto;
-
+  margin: 0 auto;
 }
-
 /****** Formulaire page contact **********************************/
-
 .contact-formulaire {
-	padding: 10%;
-	
-	  
+  padding: 10%;
 }
-
 .contact-formulaire p {
   margin-top: 0px;
 }
- 
 .contact-formulaire fieldset {
   margin-bottom: 15px;
   padding: 10px;
   border: solid 2px;
-   background-color:skyblue;
-   color: seagreen;
-	  
- 
+  background-color: skyblue;
+  color: seagreen;
 }
- 
 .contact-formulaire legend {
   padding: 0px 3px;
   font-weight: bold;
   font-variant: small-caps;
 }
- 
 .contact-formulaire label {
   width: 110px;
   display: inline-block;
   vertical-align: top;
   margin: 6px;
 }
- 
 .contact-formulaire em {
   font-weight: bold;
   font-style: normal;
   color: #f00;
 }
- 
 .contact-formulaire input:focus {
   background: #eaeaea;
 }
- 
 .contact-formulaire input, textarea {
   width: 249px;
-  
 }
- 
 .contact-formulaire textarea {
   height: 100px;
 }
- 
 .contact-formulaire select {
   width: 254px;
 }
- 
 .contact-formulaire input[type=checkbox] {
   width: 10px;
 }
- 
 .contact-formulaire input[type=submit] {
   width: 150px;
   padding: 10px;
   float: right
 }
-
-
-
 legend {
-    
-    width:inherit !important; /*Annulation des class de bootstrap*/
-
+  width: inherit !important; /*Annulation des class de bootstrap*/
+}
+/***********************Page foire aux questions ************************************/
+#faq p {
+  text-align: justify;
 }
