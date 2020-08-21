@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Iphone se",
+        "capacité": "64Go"
+    },
+    {
+        "name": "Samsung A10",
+        "capacité": "64Go"
+    },
+    {
+        "name": "LG Q60",
+        "capacité": "128Go"
+       
+    },
+    {
+        "name": "Airpods",
+        "capacité": "."
+    },
+    {
+        "name": "Coque Iphone",
+        "capacité": "."
+    },
+    {
+        "name": "Batterie externe",
+        "capacité": "."
+       
+    },
+    {
+        "name": "xiaomi redmi note pro 8",
+        "capacité": "128Go"
+    
+    }
+]

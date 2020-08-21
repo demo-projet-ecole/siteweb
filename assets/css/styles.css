@@ -156,6 +156,16 @@ h1.titre {
   color: white;
   padding: 0 15px;
 }
+
+.zoomphoto:hover img {
+  transform: scale(1.02);
+}
+
+
+.zoomphotoB:hover img {
+  transform: scale(1.05);
+}
+
 /* FOOTER */
 .middle {
   margin: auto;
@@ -211,7 +221,8 @@ h2.sous-titre {
   justify-content: space-evenly;
 }
 .PU {
-  background-color: rgba(224, 224, 224, 0.822);
+  background-color: white;
+  border: 2px solid black;
 }
 .padleft {
   padding-left: 1rem;
@@ -328,7 +339,7 @@ h2.titre-actu { /*Pour le titre de chaque actu*/
   vertical-align: top;
   margin: 6px;
 }
-.contact-formulaire em {
+em {
   font-weight: bold;
   font-style: normal;
   color: #f00;
@@ -359,4 +370,31 @@ legend {
 /***********************Page foire aux questions ************************************/
 #faq p {
   text-align: justify;
+}
+
+
+/* AUTO SEARCH */
+
+ul#smartphones {
+  color: white;
+  list-style: none;
+  background-color:black;
+  padding: 30px;
+  opacity: 0.9;
+}
+
+
+#search-bloc {
+  position: relative;
+}
+#smartphones {
+  position: absolute;
+  z-index: 15;
+}
+.indexhaut {
+  z-index: 10;
+  
+}
+.indexbas {
+  z-index: 2;
 }

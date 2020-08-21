@@ -38,32 +38,35 @@
 </head>
 
 <body>
+	
+	<header class="flex-md-fill">
+	<!-- Début du header-->
+	
+		<div id="navcolor">
+
+		<!-- Le contenaire va me centrer la zone nav bar du header-->
+		<div class="container">
+
+			
+
+
+				 <?php include('assets/inc/entete.php'); ?>
+
+		</div>
+			
+	</div>
+		
+	</header>
+	
+<main class="indexbas">
+
 
 <!-- Début du header-->
-
-<div class="contenaire-fluid" id="navcolor">
-	
-	<!-- Le contenaire va me centrer la zone nav bar du header-->
-	<div class="container">
-
-		<header class="flex-md-fill">
-			
-			
-			 <?php include('assets/inc/entete.php'); ?>
-
-		</header>
-		
-	</div>
-</div>
- 
-<div class="container-fluid">
    
 	
-	<div class="map-responsive">
-	   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2531.2372148207965!2d3.0619488157376606!3d50.622709979499525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d597222759bf%3A0xa022a0ebf77aef7d!2s2%20Rue%20Lamartine%2C%2059000%20Lille!5e0!3m2!1sfr!2sfr!4v1597560915372!5m2!1sfr!2sfr" width="100%" height="498" frameborder="0" style="border:1;" allowfullscreen="true" aria-hidden="false" tabindex="0"></iframe>
-		</div>
-	</div>	
-
+	
+	   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2531.2372148207965!2d3.0619488157376606!3d50.622709979499525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d597222759bf%3A0xa022a0ebf77aef7d!2s2%20Rue%20Lamartine%2C%2059000%20Lille!5e0!3m2!1sfr!2sfr!4v1597560915372!5m2!1sfr!2sfr" width="100%" height="398" frameborder="0" style="border:0;"  aria-hidden="false" tabindex="0"></iframe>
+			
 	
 <div class="container">
 	  
@@ -74,11 +77,12 @@
 	   
 	   
         <h1 class="padtop text-center">Vous souhaitez nous contacter ?</h1>
-	  
-                               
+	                                
 		 
-				<form method="POST" action="" enctype="multipart/form-data" class="contact-formulaire">
-		  <p><i>Complétez le formulaire. Les champs marqué par </i><em>*</em> sont <em>obligatoires</em></p>
+	<form method="POST" action="#" enctype="multipart/form-data" class="contact-formulaire">
+			
+		  <p><i>Complétez le formulaire. Les champs marqués par </i><em>*</em> sont <em>obligatoires</em></p>
+			
 		  <fieldset>
 
 			<legend>Contact</legend>
@@ -87,18 +91,18 @@
 			  <!--placeholder: indication grisée -->
 			  <!--required: il faut renseigner le champs sinon la validation est bloquée-->
 			  <!--autofocus: le curseur est positionné dans cette case au chargement de la page-->
-			  <input autofocus="autofocus" required="required" id="nom" autocomplete="on"><br>
+			  <input required="required" id="nom" autocomplete="off"><br>
 
 			<label for="prenom">Prénom <em>*</em></label>
-			<input autofocus="autofocus" required="required" id="prenom" autocomplete="on"><br>
+			<input required="required" id="prenom" autocomplete="on"><br>
 
 			<label for="telephone">Portable</label>
 			  <!--type="tel": bascule le clavier sur un smartphone-->
 			  <!--pattern: expression régulière à vérifier pour pouvoir valider-->
-			<input type="tel" autofocus="autofocus"  id="telephone" ><br>
+			<input type="tel"  id="telephone" ><br>
 
 			<label for="email">Email <em>*</em></label>
-			  <input type="email" autofocus="autofocus" required="" id="email"  autocomplete="on"><br>
+			  <input type="email" required="" id="email"  autocomplete="on"><br>
 		  </fieldset>
 
 		  <fieldset>
@@ -119,16 +123,18 @@
 		  </fieldset>
 
 		  <p><input class="btn btn-outline-info" type="submit" value="Envoyer"></p>
-		</form>
+	</form>
+
 		   	   
 </div>
-
+</main>
 <?php include('assets/inc/footer.php'); ?>
   
-      <script src="assets/js/jquery-3.5.1.min.js"></script>
-      <script src="assets/js/bootstrap.min.js"></script>
-      <script src="assets/js/bootstrap.bundle.min.js"></script>
-      <script src="assets/js/cookieconsent.min.js" data-cfasync="false"></script>
+      	<script src="assets/js/jquery-3.5.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/cookieconsent.min.js" data-cfasync="false"></script>
+	<script src="assets/js/scripts.js"></script>
   
   <script>
   window.cookieconsent.initialise({
@@ -151,7 +157,8 @@
     }
   });
   </script>
-  
+
+	
   </body>
   
   </html>

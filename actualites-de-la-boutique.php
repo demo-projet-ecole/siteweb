@@ -38,31 +38,39 @@
 </head>
 
 <body>
+	
+	<header class="flex-md-fill">
+	<!-- Début du header-->
+	
+		<div id="navcolor">
+
+		<!-- Le contenaire va me centrer la zone nav bar du header-->
+		<div class="container">
+
+			
+
+
+				 <?php include('assets/inc/entete.php'); ?>
+
+		</div>
+			
+	</div>
+		
+	</header>
+	
+	
+ <main class="indexbas">
+
 
 <!-- Début du header-->
-
-<div class="contenaire-fluid" id="navcolor">
-	
-	<!-- Le contenaire va me centrer la zone nav bar du header-->
-	<div class="container">
-
-		<header class="flex-md-fill">
-			
-			
-			 <?php include('assets/inc/entete.php'); ?>
-
-		</header>
-		
-	</div>
-</div>
+	 
 <div id="entete" class="position-relative">
   <div  id="titre-position" class="position-absolute" style="width: 100%">
     <h1 id="haut"  class="titre-header-bloc">Toute l'actualité de notre boutique</h1>
   </div>
   <img src="assets/images/bandeau/news.jpg"  alt="Boutique lille" class=" w-100 img-fluid" /> </div>
 	
-	
-<main>
+
 	
   <div class="container">
     <figure class="text-center padtop "> <img src="assets/images/logos/logo-safpic-fond-transparent.png" class="img-fluid" alt="Logo de l'association SAFPIC"/> </figure>
@@ -78,7 +86,7 @@
 
 			<div class="col-md-4 col-xs-12 zoomphotoB">
 
-				<figure><a href="lancement-du site-internet.php"><img src="assets/images/actualites/boutique.jpg"	alt="Article sur le lancement du site vitrine" class="img-thumbnail img-fluid"></a>
+				<figure><a href="lancement-du-site-internet.php"><img src="assets/images/actualites/boutique.jpg" alt="Article sur le lancement du site vitrine" class="img-thumbnail img-fluid"></a>
 				</figure>
 
 				<div class="separation">
@@ -87,13 +95,13 @@
 				</div>
 
 				<h2 class="titre-actu">Lancement du site internet</h2>
-				<article>
+				<div>
 
 					<p>SAFPIC met en ligne son site internet ! Un projet qui tenait à cœur à toute l’équipe, pour faire découvrir notre boutique, nos […]</p><br>
 
-				</article>
+				</div>
 
-				<a href="lancement-du site-internet.php" class="btn btn-outline-info btn-home-article float-right" role="button">En savoir +</a>
+				<a href="lancement-du-site-internet.php" class="btn btn-outline-info btn-home-article float-right" role="button">En savoir +</a>
 
 
 			</div>	
@@ -112,12 +120,12 @@
 					<span>27 juillet 15h18</span>
 				</div>
 
-				<h2 class="titre-actu">Nouveaux produits : Les accessoires de marques fabricants</h2>
-				<article>
+				<h2 class="titre-actu">Nouveaux produits </h2>
+				<div>
 
 					<p>Afin de répondre à la demande de nos clients, nous continuons d’étoffer nos offres produits au fil des mois. […]</p>
 
-				</article>
+				</div>
 
 				<a href="nouveaux-produits.php" class="btn btn-outline-info btn-home-article float-right" role="button">En savoir +</a>
 
@@ -135,12 +143,10 @@
 				  <img src="assets/images/pictos/clock.png" alt="Les dernières infos"/>
 					<span>10 juin à 15h18</span>
 				</div>
-
-				<h2 class="titre-actu">Nouveau service : la vente de forfaits NRJ Mobile</h2>
+				
 				<article>
-
-				  <p>A partir d’aujourd’hui, venez découvrir et souscrire directement en boutique un forfait NRJ Mobile.[…]</p>
-
+					<h2 class="titre-actu">La vente de forfaits NRJ Mobile</h2>    
+				    <p>A partir d’aujourd’hui, venez découvrir et souscrire directement en boutique un forfait NRJ Mobile.[…]</p>
 				</article>
 
 				<a href="nrj-mobile.php" class="btn btn-outline-info btn-home-article float-right" role="button">En savoir +</a>
@@ -173,10 +179,11 @@
 
 <?php include('assets/inc/footer.php'); ?>
 
-<script src="assets/js/jquery-3.5.1.min.js"></script> 
-<script src="assets/js/bootstrap.min.js"></script> 
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/cookieconsent.min.js" data-cfasync="false"></script>
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/cookieconsent.min.js" data-cfasync="false"></script>
+	<script src="assets/js/scripts.js"></script>
 
 <script>
 window.cookieconsent.initialise({

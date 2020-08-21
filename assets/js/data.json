@@ -1,0 +1,12 @@
+[
+    {
+        "name": "iPhone X",
+        "price": 699,
+        "stock": 10
+    },
+    {
+        "name": "iPhone 6",
+        "price": 399,
+        "stock": 10
+    }
+]

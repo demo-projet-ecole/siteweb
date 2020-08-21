@@ -31,23 +31,32 @@
 <meta name="theme-color" content="#ffffff">
 <!-- Fin d'intégration du favicon -->
 </head>
-	<!-- Début du header-->
-<div class="contenaire-fluid" id="navcolor">
-	
-	<!-- Le contenaire va me centrer la zone nav bar du header-->
-	<div class="container">
 
-		<header class="flex-md-fill">
-			
-			
-			 <?php include('assets/inc/entete.php'); ?>
 
-		</header>
-		
-	</div>
-</div>
-	
 <body>
+	
+	<header class="flex-md-fill">
+	<!-- Début du header-->
+	
+		<div id="navcolor">
+
+		<!-- Le contenaire va me centrer la zone nav bar du header-->
+		<div class="container">
+
+			
+
+
+				 <?php include('assets/inc/entete.php'); ?>
+
+		</div>
+			
+	</div>
+		
+	</header>
+	
+	
+ <main class="indexbas">
+
 
 <!-- Début du header-->
 
@@ -57,7 +66,6 @@
     <h1 id="haut"  class="titre-header-bloc">A propos de notre boutique</h1>
   </div>
   <img src="assets/images/bandeau/img-bandeau-a-propos.jpg"  alt="Boutique multimédia pas cher" class=" w-100 img-fluid" /> </div>
-<main>
   <div class="container">
     <figure class="text-center padtop "> <img src="assets/images/logos/logo-safpic-fond-transparent.png" class="img-fluid" alt="Logo de l'association SAFPIC"/> </figure>
     <h1 class="titre text-center">Une sélection de smartphones à petits prix ou reconditionnés, ainsi que de nombreux accessoires disponibles</h1>
@@ -69,12 +77,12 @@
       <article class="col-md-6 col-xs-12 padtop stylo">
         <h2 class="text-center padtop">Notre boutique SAFPIC</h2>
         <p>Notre boutique de l’association SAFPIC est présente au cœur du centre  de Lille. Elle vous propose tout un panel d'activités liées à la téléphonie mobile et la vente d'accessoires, en passant par la sauvegarde de vos données ou la cession de forfaits téléphoniques.</p>
-        <p>Forte de ses 10 ans d'expérience dans les métiers de la téléphonie mobile et de la commercialisation d'accessoires . Notre équipe est en permanence à la recherche chez nos grossistes du meilleur prix. Nous présentons également des téléphones reconditionnés de classe A.</p>
+        <p>Forte de ses 10 ans d'expérience dans les métiers de la téléphonie mobile et de la commercialisation d’accessoires . Notre équipe est en permanence à la recherche chez nos grossistes du meilleure prix. Nous présentons également des téléphones reconditionnés de classe A.</p>
       </article>
-      <article class="col-md-6 col-xs-12 padtop flex align-items-center">
+      <div class="col-md-6 col-xs-12 padtop flex align-items-center">
         <figure><a href="smartphone.php"><img class="img-fluid padtop" src="assets/images/a-propos/smartphone-boutique.jpg"
 								alt="Nous disposons de tous les accessoires indispensables pour votre mobile"></a></figure>
-      </article>
+      </div>
     </div>
   </div>
   <h1 class="titre text-center">Une équipe de qualité et de proximité</h1>
@@ -130,10 +138,11 @@
 
  <?php include('assets/inc/footer.php'); ?>
 	
-<script src="assets/js/jquery-3.5.1.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/cookieconsent.min.js" data-cfasync="false"></script>
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/cookieconsent.min.js" data-cfasync="false"></script>
+	<script src="assets/js/scripts.js"></script>
 <script>
 window.cookieconsent.initialise({
   "palette": {

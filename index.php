@@ -1,6 +1,6 @@
 <!doctype html>
 
-<!--derniere modification: Yanis le 15/08 à 19h30 -->
+<!--derniere modification: Yanis le 20/16h45 -->
 
 
 <html lang="fr">
@@ -38,23 +38,33 @@
 	<!-- Fin d'intégration du favicon -->
 	
 </head>
-
-<body class="justify-content-around">
-	<!-- Début du header-->
-<div class="contenaire-fluid" id="navcolor">
+ 
+<body>
 	
-	<!-- Le contenaire va me centrer la zone nav bar du header-->
-	<div class="container">
+	<header class="flex-md-fill">
+	<!-- Début du header-->
+	
+		<div id="navcolor">
 
-		<header class="flex-md-fill">
-			
-			
-			 <?php include('assets/inc/entete.php'); ?>
+		<!-- Le contenaire va me centrer la zone nav bar du header-->
+		<div class="container">
 
-		</header>
-		
+			
+
+
+				 <?php include('assets/inc/entete.php'); ?>
+
+		</div>
+			
 	</div>
+		
+	</header>
+	
 
+<!-- MAIN-->
+
+ <main class="indexbas">
+	 
 	<!-- implémentation du carousel -->
 
 	<div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
@@ -67,7 +77,7 @@
 				<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
 			</ol>
 			<div class="carousel-inner">
-				<div class="carousel-item active"> <a href="smartphone.php"><img src="assets/images/header/slide-promo-1.jpg" class="d-block w-100 img-fluid" alt="téléphone low cost"></a>
+				<div class="carousel-item active"> <a href="smartphone.php"><img src="assets/images/header/slide-promo-1.png" class="d-block w-100 img-fluid" alt="téléphone low cost"></a>
 					<div class="carousel-caption d-none d-md-block">
 					</div>
 				</div>
@@ -83,13 +93,13 @@
 		</div>
 	</div>
 	
-</div>
+
 
 	<!--fin du carousel -->
-	<!-- MAIN-->
-	<main>
+	
+	
 
-		<div class="container-fluid">
+		<div class="container-fluid indexbas">
 			<div class="container"> </div>
 
 			<!--ARTICLE-->
@@ -222,6 +232,7 @@
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/bootstrap.bundle.min.js"></script>
 	<script src="assets/js/cookieconsent.min.js" data-cfasync="false"></script>
+	<script src="assets/js/scripts.js"></script>
 
 <script>
 window.cookieconsent.initialise({
