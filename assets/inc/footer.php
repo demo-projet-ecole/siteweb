@@ -7,7 +7,7 @@
       <!--  Grid column -->
       <div class="col-md-3 mx-auto">
         <!-- Content -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">SAFPIC</h5>
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">MOBITEC</h5>
         <p>Le spécialiste du smartphone. Vente de téléphones et d'accessoires à bas prix.</p>
       </div>
       <!-- Grid column -->
@@ -44,8 +44,8 @@
         <!-- Réseaux sociaux -->
         <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Réseaux</h5>
         <ul class="list-unstyled">
-          <li> <a href="https://fr-fr.facebook.com/safpicnumerique/">Facebook</a> </li>
-          <li> <a href="https://twitter.com/SafpicNumerique" target="_blank">Twitter</a> </li>
+          <li> <a href="https://fr-fr.facebook.com/MOBITECnumerique/">Facebook</a> </li>
+          <li> <a href="https://twitter.com/MOBITECNumerique" target="_blank">Twitter</a> </li>
           <li> <a href="" title="Prochainement ouvert">Instagram</a> </li>
         </ul>
       </div>
@@ -54,6 +54,6 @@
     <!-- Grid row -->
   </div>
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright: Yanis, JC , Mathieu et Sébastien</div>
+  <div class="footer-copyright text-center py-3">© 2020 Copyright: Yanis, JC , Matthieu</div>
   
 </footer>

@@ -14,26 +14,24 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/cookieconsent.min.css">
 	
-	<title>Bienvenue sur SAFPICSTORE</title>
+	<title>Bienvenue sur MOBITECSTORE</title>
 	
 	<!--Intégration du favicon -->
-	<link rel="manifest" href="assets/js/manifest.json">
-	<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon//apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="assets/images/favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="/assets/images/favicon/favicon.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/assets/images/favicon-32.png" type="image/png">
+<link rel="icon" sizes="64x64" href="/assets/images/favicon-64.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/assets/images/favicon-96.png" type="image/png">
+<link rel="icon" sizes="196x196" href="/assets/images/favicon-196.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/images/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/images/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/images/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/images/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/images/apple-touch-icon-144x144.png">
+<meta name="msapplication-TileImage" content="/assets/images/favicon-144.png">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+
 	
 	<!-- Fin d'intégration du favicon -->
 	
@@ -176,7 +174,7 @@
 								<span class="text-black-50">2 juillet 2020</span>
 							</figcaption>
 					  </figure>
-							<p>SAFPIC met en ligne son site internet ! Un projet qui tenait à cœur à toute l’équipe<br> [<a href="lancement-du-site-internet.php" class="btn-outline-dark" role="button">En savoir +</a>…]</p>
+							<p>MOBITEC met en ligne son site internet ! Un projet qui tenait à cœur à toute l’équipe<br> [<a href="lancement-du-site-internet.php" class="btn-outline-dark" role="button">En savoir +</a>…]</p>
 						
 						
 				  </div>
@@ -187,8 +185,8 @@
 
 			<!--logo et texte-->
 			<div class="container" id="logo2">
-				<figure><img src="assets/images/logos/logo-safpic-fond-transparent.png" class="logo-hidden padtop" alt="Logo Safpic"></figure>
-				<h2 class="text-center">SAFPIC : Le meilleur choix, près de chez vous </h2>
+				<figure><img src="assets/images/logos/logo_Mobitec-xl.png" class="logo-hidden padtop" alt="Logo MOBITEC"></figure>
+				<h2 class="m-3">Le meilleur choix, près de chez vous </h2>
 			</div>
 			<!--article et bouton-->
 			<div class="container">
@@ -204,7 +202,7 @@
 						<strong>Nos coordonnées</strong>
 					  <p>68 avenue Lamartine 59000 Lille</p>
 						<p>Tel:0325895400</p>
-						<p>Mail:<a href="mailto:contact@safpic.f"> contact@safpic.fr</a></p>
+						<p>Mail:<a href="mailto:contact@MOBITEC.f"> contact@MOBITEC.fr</a></p>
 					</div>
 				</div>
 			</div>

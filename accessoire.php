@@ -10,26 +10,24 @@
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 <link rel="stylesheet" type="text/css" href="assets/css/cookieconsent.min.css">
-<title>SAFPICSTORE - Vente d'accessoires Smartphone</title>
+<title>MOBITECSTORE - Vente d'accessoires Smartphone</title>
 
 <!--Intégration du favicon -->
-<link rel="manifest" href="assets/js/manifest.json">
-<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon//apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="assets/images/favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="/assets/images/favicon/favicon.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/assets/images/favicon-32.png" type="image/png">
+<link rel="icon" sizes="64x64" href="/assets/images/favicon-64.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/assets/images/favicon-96.png" type="image/png">
+<link rel="icon" sizes="196x196" href="/assets/images/favicon-196.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/images/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/images/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/images/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/images/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/images/apple-touch-icon-144x144.png">
+<meta name="msapplication-TileImage" content="/assets/images/favicon-144.png">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+
 
 <!-- Fin d'intégration du favicon -->
 
@@ -60,7 +58,7 @@
   
   <div class="container-fluid">
     <div class="container">
-      <figure class="text-center padtop"> <img class="text-center" src="assets/images/logos/logo-safpic-fond-transparent.png" alt="Logo de l'association SAFPIC" /> </figure>
+      <figure class="text-center padtop"> <img class="text-center" src="assets/images/logos/logo_Mobitec-xl.png" alt="Logo de l'association MOBITEC" /> </figure>
     </div>
   </div>
   <div class="container">
@@ -87,8 +85,8 @@
     <div class="row"> 
       <!--LOGO-->
       <div class="col-md-4 col-sm-12 text-center">
-        <figure class="padtop"> <img class="" src="assets/images/logos/logo-safpic-fond-transparent.png"
-                                alt="Logo de l'association SAFPIC" /> </figure>
+        <figure class="padtop"> <img class="" src="assets/images/logos/logo_Mobitec-xl.png"
+                                alt="Logo de l'association MOBITEC" /> </figure>
       </div>
       <div class="flex padtop PU col-md-4 col-sm-12 middle text-center space"> 
         <!--PU = PANIER + USER-->
@@ -121,7 +119,7 @@
       <div class="col-3 col-md-3 col-sm-12">
         <article>
           <h2 class="d-none d-lg-block sizetitle">Airpod </h2>
-          <p class="d-none d-lg-block">100€ - SAFPICSTORE</p>
+          <p class="d-none d-lg-block">100€ - MOBITECSTORE</p>
           <a href="achataccessoiresBatterieExterne.php" class="btn btn-outline-info" role="button">En savoir +</a> </article>
       </div>
       
@@ -142,7 +140,7 @@
       <div class="col-3 col-md-3 col-sm-12">
         <article>
           <h2 class="d-none d-lg-block sizetitle"> adaptateur </h2>
-          <p class="d-none d-lg-block">15€ - SAFPICSTORE</p>
+          <p class="d-none d-lg-block">15€ - MOBITECSTORE</p>
           <a href="achataccessoiresBatterieExterne.php" class="btn btn-outline-info" role="button">En savoir +</a> </article>
       </div>
     </div>
@@ -156,8 +154,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active"> <img src="assets/images/accessoires-phone/chargeur-induction-iphone-x-belkin.jpg"
                                         class="d-block w-100" alt="accesoires3"> </div>
-          <div class="carousel-item"> <img src="assets/images/accessoires-phone/batterie externe.jpg"
-                                        class="d-block w-100" alt="accesoires3"> </div>
+          <div class="carousel-item"> <img src="assets/images/accessoires-phone/batterie externe.jpg">                                        class="d-block w-100" alt="accesoires3"> </div>
         </div>
         <a class="carousel-control-prev" href="#carouselaccessoire3" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselaccessoire3" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
       
@@ -166,7 +163,7 @@
       <div class="col-3 col-md-3 col-sm-12">
         <article>
           <h2 class="d-none d-lg-block sizetitle">Batterie externe Mophie</h2>
-          <p class="d-none d-lg-block">150€ - SAFPICSTORE</p>
+          <p class="d-none d-lg-block">150€ - MOBITECSTORE</p>
           <a href="achataccessoiresBatterieExterne.php" class="btn btn-outline-info" role="button">En savoir +</a> </article>
       </div>
       
@@ -187,7 +184,7 @@
       <div class="col-3 col-md-3 col-sm-12">
         <article>
           <h2 class="d-none d-lg-block sizetitle">Coques Téléphone iPhone/Samsung</h2>
-          <p class="d-none d-lg-block">20€- SAFPICSTORE</p>
+          <p class="d-none d-lg-block">20€- MOBITECSTORE</p>
           <a href="achataccessoiresBatterieExterne.php" class="btn btn-outline-info" role="button">En savoir +</a> </article>
       </div>
     </div>
@@ -201,36 +198,44 @@
     <div class="container padtop">
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-12 margright zoomphotoB" >
-          <figure> <img  class ="img-fluid img-thumbnail" src="assets/images/smartphones/iphonesewhite.jpg" alt="TELEPHONE--"> </figure>
-          <figcaption> <span class="text-black-50">2 juillet 2020</span>
+          <figure> <img  class ="img-fluid img-thumbnail" src="assets/images/smartphones/iphonesewhite.jpg" alt="TELEPHONE--"> 
+           <figcaption> <span class="text-black-50">2 juillet 2020</span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsum amet beatae
               recusandae, quam culpa mollitia, error velit ratione minus ducimus vero earum fugiat
               maxime assumenda! Dignissimos, earum consequuntur! Reiciendis.</p>
           </figcaption>
+        </figure>
+         
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 margright zoomphotoB" >
-          <figure> <img class="img-fluid img-thumbnail" src="assets/images/smartphones/senoir.png" alt="TELEPHONE--"> </figure>
-          <figcaption> <span class="text-black-50">2 juillet 2020</span>
+          <figure> <img class="img-fluid img-thumbnail" src="assets/images/smartphones/senoir.png" alt="TELEPHONE--"> 
+           <figcaption> <span class="text-black-50">2 juillet 2020</span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsum amet beatae
               recusandae, quam culpa mollitia, error velit ratione minus ducimus vero earum fugiat
               maxime assumenda! Dignissimos, earum consequuntur! Reiciendis.</p>
           </figcaption>
+        </figure>
+         
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 margright zoomphotoB" >
-          <figure> <img class="img-thumbnail img-fluid" src="assets/images/smartphones/LGq60bleu.jpg" alt="TELEPHONE--"> </figure>
-          <figcaption> <span class="text-black-50">2 juillet 2020</span>
+          <figure> <img class="img-thumbnail img-fluid" src="assets/images/smartphones/LGq60bleu.jpg" alt="TELEPHONE--"> 
+           <figcaption> <span class="text-black-50">2 juillet 2020</span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsum amet beatae
               recusandae, quam culpa mollitia, error velit ratione minus ducimus vero earum fugiat
               maxime assumenda! Dignissimos, earum consequuntur! Reiciendis.</p>
           </figcaption>
+        </figure>
+         
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 zoomphotoB" >
-          <figure> <img class="img-fluid img-thumbnail" src="assets/images/smartphones/redminote8pronoir.jpg" alt="TELEPHONE--"> </figure>
-          <figcaption> <span class="text-black-50">2 juillet 2020</span>
+          <figure> <img class="img-fluid img-thumbnail" src="assets/images/smartphones/redminote8pronoir.jpg" alt="TELEPHONE--">
+           <figcaption> <span class="text-black-50">2 juillet 2020</span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsum amet beatae
               recusandae, quam culpa mollitia, error velit ratione minus ducimus vero earum fugiat
               maxime assumenda! Dignissimos, earum consequuntur! Reiciendis.</p>
           </figcaption>
+        </figure>
+          
         </div>
       </div>
     </div>

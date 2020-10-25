@@ -10,26 +10,24 @@
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 <link rel="stylesheet" type="text/css" href="assets/css/cookieconsent.min.css">
-<title>SAFPICSTORE - L'actualité de la boutique</title>
+<title>MOBITECSTORE - L'actualité de la boutique</title>
 
 <!--Intégration du favicon -->
-<link rel="manifest" href="assets/js/manifest.json">
-<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon//apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="assets/images/favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="/assets/images/favicon/favicon.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/assets/images/favicon-32.png" type="image/png">
+<link rel="icon" sizes="64x64" href="/assets/images/favicon-64.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/assets/images/favicon-96.png" type="image/png">
+<link rel="icon" sizes="196x196" href="/assets/images/favicon-196.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/images/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/images/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/images/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/images/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/images/apple-touch-icon-144x144.png">
+<meta name="msapplication-TileImage" content="/assets/images/favicon-144.png">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+
 
 <!-- Fin d'intégration du favicon -->
 
@@ -54,11 +52,11 @@
     </div>
     <img src="assets/images/bandeau/news.jpg"  alt="Boutique multimédia pas cher" class=" w-100 img-fluid" /> </div>
   <div class="container">
-    <div class="row"> <img src="assets/images/logos/logo-safpic-fond-transparent.png" class="img-fluid centrage-image padtop" alt="Logo de l'association SAFPIC"/>
+    <div class="row"> <img src="assets/images/logos/logo_Mobitec-xl.png" class="img-fluid centrage-image padtop" alt="Logo de l'association MOBITEC"/>
       <article id="PA" class="padtop">
         <h2 class="padtop text-center">Nouveau service : la vente de forfaits NRJ Mobile</h2>
         <figure  class="text-center"> <img class="img-fluid mt-3 img-thumbnail " src="assets/images/actualites/actu-nrj-800x480.jpg" alt="Nous disposons de tous les accessoires indispensables pour votre mobile"> </figure>
-        <p>A partir d’aujourd’hui, venez découvrir et souscrire directement en boutique un forfait NRJ Mobile. Dans notre boutique SAFPIC, retrouvez des forfaits adaptés à votre consommation, avec ou sans engagements, avec ou sans mobile, toute une gamme de service destinée à tous les budgets. </p>
+        <p>A partir d’aujourd’hui, venez découvrir et souscrire directement en boutique un forfait NRJ Mobile. Dans notre boutique MOBITEC, retrouvez des forfaits adaptés à votre consommation, avec ou sans engagements, avec ou sans mobile, toute une gamme de service destinée à tous les budgets. </p>
         <div class="float-right"> <a href="actualites-de-la-boutique.php" class="btn btn-outline-info btn-home-article" role="button">Retour aux articles</a> </div>
       </article>
     </div>

@@ -10,25 +10,23 @@
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 <link rel="stylesheet" type="text/css" href="assets/css/cookieconsent.min.css">
-<title>SAFPICSTORE - A propos de nous</title>
+<title>MOBITECSTORE - A propos de nous</title>
 <!--Intégration du favicon -->
-<link rel="manifest" href="assets/js/manifest.json">
-<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon//apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="assets/images/favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="/assets/images/favicon/favicon.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/assets/images/favicon-32.png" type="image/png">
+<link rel="icon" sizes="64x64" href="/assets/images/favicon-64.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/assets/images/favicon-96.png" type="image/png">
+<link rel="icon" sizes="196x196" href="/assets/images/favicon-196.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/images/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/images/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/images/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/images/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/images/apple-touch-icon-144x144.png">
+<meta name="msapplication-TileImage" content="/assets/images/favicon-144.png">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+
 <!-- Fin d'intégration du favicon -->
 </head>
 
@@ -67,7 +65,7 @@
   </div>
   <img src="assets/images/bandeau/img-bandeau-a-propos.jpg"  alt="Boutique multimédia pas cher" class=" w-100 img-fluid" /> </div>
   <div class="container">
-    <figure class="text-center padtop "> <img src="assets/images/logos/logo-safpic-fond-transparent.png" class="img-fluid" alt="Logo de l'association SAFPIC"/> </figure>
+    <figure class="text-center padtop "> <img src="/assets/images/logos/logo_Mobitec-xl.png" class="img-fluid" alt="Logo de l'association MOBITEC"/> </figure>
     <h1 class="titre text-center">Une sélection de smartphones à petits prix ou reconditionnés, ainsi que de nombreux accessoires disponibles</h1>
   </div>
   
@@ -75,8 +73,8 @@
   <div class="container margtop">
     <div class="row ">
       <article class="col-md-6 col-xs-12 padtop stylo">
-        <h2 class="text-center padtop">Notre boutique SAFPIC</h2>
-        <p>Notre boutique de l’association SAFPIC est présente au cœur du centre  de Lille. Elle vous propose tout un panel d'activités liées à la téléphonie mobile et la vente d'accessoires, en passant par la sauvegarde de vos données ou la cession de forfaits téléphoniques.</p>
+        <h2 class="text-center padtop">Notre boutique MOBITEC</h2>
+        <p>Notre boutique de l’association MOBITEC est présente au cœur du centre  de Lille. Elle vous propose tout un panel d'activités liées à la téléphonie mobile et la vente d'accessoires, en passant par la sauvegarde de vos données ou la cession de forfaits téléphoniques.</p>
         <p>Forte de ses 10 ans d'expérience dans les métiers de la téléphonie mobile et de la commercialisation d’accessoires . Notre équipe est en permanence à la recherche chez nos grossistes du meilleure prix. Nous présentons également des téléphones reconditionnés de classe A.</p>
       </article>
       <div class="col-md-6 col-xs-12 padtop flex align-items-center">
@@ -91,15 +89,15 @@
   <div class="container margtop">
     <div class="row">
       <div class="col-md-6 col-xs-12 text-center">
-        <figure><img class="img-thumbnail img-circle w-50" src="assets/images/a-propos/per01.jpg" alt="l'équipe de la boutique SAFPIC"></figure>
+        <figure><img class="img-thumbnail img-circle w-50" src="assets/images/a-propos/per01.jpg" alt="l'équipe de la boutique MOBITEC"></figure>
       </div>
       <article class="col-md-6 col-xs-12 padtop">
         <h2 class="text-center">Fabrice</h2>
-        <p class=" sous-titre text-center">Gérant de la boutique et du site SAFPIC</p>
+        <p class=" sous-titre text-center">Gérant de la boutique et du site MOBITEC</p>
         <p>Il décide des grandes orientations que prendra la boutique. Chaque trimestre, il réunit l'équipe pilotage et ensemble, ils décident des développements à venir sur la plateforme. C'est l'homme à battre au baby-foot.</p>
       </article>
       <div class="col-md-6 col-xs-12 text-center">
-        <figure><img class="img-thumbnail img-circle w-50" src="assets/images/a-propos/per02.jpg" alt="l'équipe de la boutique SAFPIC"></figure>
+        <figure><img class="img-thumbnail img-circle w-50" src="assets/images/a-propos/per02.jpg" alt="l'équipe de la boutique MOBITEC"></figure>
       </div>
       <article class="col-md-6 col-xs-12 padtop">
         <h2 class="text-center">Anna</h2>
@@ -107,7 +105,7 @@
         <p>Anna s'occupe de toute la partie administrative de la boutique ! Elle gère principalement les mises en place de nouveautés et des changements sur la plateforme.Elle synchronise les équipes entre elles et permet le bon déroulement des opérations.</p>
       </article>
       <div class="col-md-6 col-xs-12 text-center pad">
-        <figure><img class="img-thumbnail img-circle w-50" src="assets/images/a-propos/karim.jpg" alt="l'équipe de la boutique SAFPIC"></figure>
+        <figure><img class="img-thumbnail img-circle w-50" src="assets/images/a-propos/karim.jpg" alt="l'équipe de la boutique MOBITEC"></figure>
       </div>
       <article class="col-md-6 col-xs-12 padtop">
         <h2 class="text-center">Karim</h2>

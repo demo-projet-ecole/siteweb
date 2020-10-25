@@ -4,7 +4,7 @@
 	 
 
 
-   <a class="navbar-brand" href="index.php"><img src="assets/images/header/logo-safpic-small.jpg" class="padlogo" alt="Logo de l'association SAFPIC"/></a>
+   <a class="navbar-brand" href="index.php"><img src="../../assets/images/logos/logo-mobitech.png" class="padlogo" alt="Logo de l'association MOBITEC"/></a>
 	  
 	 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
@@ -29,7 +29,7 @@
 					<a class="dropdown-item" href="smartphone.php">Vente Smartphones</a>
 					<a class="dropdown-item" href="accessoire.php">Vente Accessoires</a>
 				 </div>
-		   </li>
+	      </li>
 
 		  <li class="nav-item">
 			<a class="nav-link" href="actualites-de-la-boutique.php">Actus</a>
@@ -49,8 +49,8 @@
 				<ul id="smartphones">
 				</ul>
 			</div>
-		</div> 
-	</div>
+	</div> 
+   </div>
 
 </nav>
    

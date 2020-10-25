@@ -15,26 +15,24 @@
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     <link rel="stylesheet" type="text/css" href="assets/css/cookieconsent.min.css">
 
-    <title>Bienvenue sur SAFPICSTORE</title>
+    <title>Bienvenue sur MOBITECSTORE</title>
 
     <!--Intégration du favicon -->
-    <link rel="manifest" href="assets/js/manifest.json">
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon//apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="/assets/images/favicon/favicon.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/assets/images/favicon-32.png" type="image/png">
+<link rel="icon" sizes="64x64" href="/assets/images/favicon-64.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/assets/images/favicon-96.png" type="image/png">
+<link rel="icon" sizes="196x196" href="/assets/images/favicon-196.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/images/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/images/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/images/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/images/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/images/apple-touch-icon-144x144.png">
+<meta name="msapplication-TileImage" content="/assets/images/favicon-144.png">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+
 
     <!-- Fin d'intégration du favicon -->
 
@@ -49,8 +47,8 @@
 
             <!-- logo-->
 
-            <div id="logo"> <a href="index.html"><img src="assets/images/header/logo-safpic-small.jpg"
-                        alt="Logo de l'association SAFPIC" /></a>
+            <div id="logo"> <a href="index.html"><img src="assets/images/header/logo-MOBITEC-small.jpg"
+                        alt="Logo de l'association MOBITEC" /></a>
                 <div>
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -109,8 +107,8 @@
         <div class="container-fluid">
             <div class="container">
                 <figure class="text-center padtop">
-                    <img class="text-center" src="assets/images/logos/logo-safpic-fond-transparent.png"
-                        alt="Logo de l'association SAFPIC" />
+                    <img class="text-center" src="assets/images/logos/logo_Mobitec-xl.png"
+                        alt="Logo de l'association MOBITEC" />
                 </figure>
             </div>
             <div class="container text-center">
@@ -187,7 +185,7 @@
                 <!--  Grid column -->
                 <div class="col-md-3 mx-auto">
                     <!-- Content -->
-                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">SAFPIC</h5>
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">MOBITEC</h5>
                     <p>Le spécialiste du smartphone. Vente de téléphone neuf, d'accessoires.</p>
                 </div>
                 <!-- Grid column -->

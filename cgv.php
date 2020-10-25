@@ -10,26 +10,24 @@
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 <link rel="stylesheet" type="text/css" href="assets/css/cookieconsent.min.css">
-<title>SAFPICSTORE - CGV</title>
+<title>MOBITECSTORE - CGV</title>
 
 <!--Intégration du favicon -->
-<link rel="manifest" href="assets/js/manifest.json">
-<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon//apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="assets/images/favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="/assets/images/favicon/favicon.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/assets/images/favicon-32.png" type="image/png">
+<link rel="icon" sizes="64x64" href="/assets/images/favicon-64.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/assets/images/favicon-96.png" type="image/png">
+<link rel="icon" sizes="196x196" href="/assets/images/favicon-196.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/images/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/images/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/images/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/images/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/images/apple-touch-icon-144x144.png">
+<meta name="msapplication-TileImage" content="/assets/images/favicon-144.png">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+
 
 <!-- Fin d'intégration du favicon -->
 
@@ -49,17 +47,17 @@
 </header>
 <main class="indexbas">
   <div id="faq" class="container">
-    <figure class="text-center"> <img src="assets/images/logos/logo-safpic-fond-transparent.png" class="img-fluid centrage-image padtop" alt="Logo de l'association SAFPIC"/> </figure>
+    <figure class="text-center"> <img src="assets/images/logos/logo-MOBITEC-fond-transparent.png" class="img-fluid centrage-image padtop" alt="Logo de l'association MOBITEC"/> </figure>
     <h1 class="padtop text-center">Nos conditions de vente</h1>
     <p class="padtop"><strong>Identification du vendeur :</strong></p>
-    <p>Magasin.safpic-asso.org est édité par l’association SAFPIC dont le siège social est basé : 20 allée des Historiens à Villeneuve d’Ascq. Immatriculé à l’INSEE sous le numéro siren : 881 150 619.
-      Notre service client est joignable soit par téléphone au 09 73 12 11 92 (Prix d'un appel national depuis un poste fixe) du lundi au vendredi de 9h30 à 12h et de 12h45 à 18h30, hors jours fériés, soit par mail à : <a href="mailto:contact@safpic-asso.org">contact@safpic-asso.org</a></p>
+    <p>Magasin.MOBITEC-asso.org est édité par l’association MOBITEC dont le siège social est basé : 20 allée des Historiens à Villeneuve d’Ascq. Immatriculé à l’INSEE sous le numéro siren : 881 150 619.
+      Notre service client est joignable soit par téléphone au 09 73 12 11 92 (Prix d'un appel national depuis un poste fixe) du lundi au vendredi de 9h30 à 12h et de 12h45 à 18h30, hors jours fériés, soit par mail à : <a href="mailto:contact@MOBITEC-asso.org">contact@MOBITEC-asso.org</a></p>
      
     <p><strong>Objet et acceptation des conditions :</strong></p>
-    <p>Les conditions générales de ventes décrites ci-dessous détaillent les droits et obligations du site SAFPIC, et de ses clients dans le cadre de tous les produits se trouvant sur le site magasin.safpic-asso.org.
+    <p>Les conditions générales de ventes décrites ci-dessous détaillent les droits et obligations du site MOBITEC, et de ses clients dans le cadre de tous les produits se trouvant sur le site magasin.MOBITEC-asso.org.
       Toute commande impliquera l'adhésion sans réserve de l'acheteur aux présentes conditions générales de vente. Ces conditions générales de vente prévaudront sur toutes autres conditions figurant dans tout autre document, sauf dérogation préalable, expresse et écrite.
       Pour l’acceptation des présentes conditions générales de vente le client doit être majeur et jouir de la capacité juridique nécessaire, ou être autorisé par son tuteur ou son curateur s’il est incapable.</p>
-    <p>SAFPIC se réserve le droit de modifier ses Conditions Générales de Vente à tout moment, dans ce cas les conditions applicables seront celles en vigueur à la date de la commande effectuée par l’Acheteur.</p>
+    <p>MOBITEC se réserve le droit de modifier ses Conditions Générales de Vente à tout moment, dans ce cas les conditions applicables seront celles en vigueur à la date de la commande effectuée par l’Acheteur.</p>
       
     <p><strong>Produits :</strong></p>
     <p>Les produits proposés à la vente sont décrits sur notre site.
@@ -69,7 +67,7 @@
     <p>Les produits sont disponibles à la vente dans la limite des stocks disponibles.
       En cas d'indisponibilité du produit, nous vous remboursons le montant de l'article dans un délai maximum de 10 jours ouvrés par le même mode de règlement que celui utilisé à l'origine.</p>
     <p>Prix : Les prix sont indiqués en euros toutes taxes comprises, hors frais de port. Les prix sont ceux en vigueur au jour de la commande, ils tiennent compte de la TVA non applicable. Les frais de port apparaissent sur l'écran après sélection du mode de livraison.
-      Le site SAFPIC STORE se réserve le droit de modifier ses prix à tout moment.</p>
+      Le site MOBITEC STORE se réserve le droit de modifier ses prix à tout moment.</p>
      
     <p><strong>Commande :</strong></p>
     <p>Pour toute commande, vous devrez au préalable vous inscrire sur notre site dans la rubrique "Connexion".
@@ -84,18 +82,18 @@
       Pour plus de sécurité, nous utilisons le protocole 3D-Secure qui vous redirigera automatiquement vers une page sécurisée de votre banque. Vous devrez alors renseigner une donnée que celle-ci peut authentifier (un code reçu par sms, un mot de passe personnel…), afin de valider la transaction. Si vous rencontrez un problème concernant cette vérification 3D- Secure, veuillez- vous rapprocher de votre établissement bancaire qui vous guidera dans cette démarche.</p>
      
     <p><strong>Chèque </strong>: Vous pouvez notamment régler par chèque libellé à l'ordre et l'adresse suivante:</p>
-      <strong>SAFPIC Association<br>
+      <strong>MOBITEC Association<br>
     20 allée des Historiens – appt 112 <br>
     Quartier Haute Borne <br>
     59650 VILLENEUVE D’ASCQ</strong>
     <p>Nous vous informons que votre commande ne sera expédiée qu'après encaissement de votre chèque.
       Si nous ne recevons pas votre chèque dans un délai de 10 jours ouvrés, suivant la validation de votre panier et la demande de règlement, nous annulerons votre commande et remettrons les produits commandés à disposition sur notre site de vente. </p>
      
-    <p><strong>Virement bancaire : </strong>En cas de sélection de ce mode de paiement, vous recevrez nos coordonnées bancaires par mail après validation de votre commande. Elle sera validée dès lors que le virement aura été effectué, et validé par SAFPIC Association.
+    <p><strong>Virement bancaire : </strong>En cas de sélection de ce mode de paiement, vous recevrez nos coordonnées bancaires par mail après validation de votre commande. Elle sera validée dès lors que le virement aura été effectué, et validé par MOBITEC Association.
       Si nous ne recevons pas votre virement dans un délai de 7 jours ouvrés, suivant la validation de votre panier et la demande de règlement, nous annulerons votre commande et remettrons les produits commandés à disposition sur notre site de vente.</p>
      
     <p><strong>Transfert de propriété :</strong></p>
-    <p>Les produits vendus sur le site magasin.safpic-asso.org demeure la propriété de SAFPIC Association, jusqu'au paiement intégral du prix par l'acheteur. Le transfert de propriété est effectif une fois ce paiement réalisé.</p>
+    <p>Les produits vendus sur le site magasin.MOBITEC-asso.org demeure la propriété de MOBITEC Association, jusqu'au paiement intégral du prix par l'acheteur. Le transfert de propriété est effectif une fois ce paiement réalisé.</p>
      
     <p><strong>Zone et Conditions de livraison :</strong></p>
     <p>Nous livrons uniquement en France Métropolitaine (Corse et Monaco exclus).
@@ -103,9 +101,9 @@
       Les délais de livraison sont indiqués à titre indicatif, ils ne tiennent pas compte du délai de préparation de 24h ouvrés.</p>
      
     <p><strong>Moyens de transport :</strong></p>
-    <p>Prêt à Poster Lettre Suivie : Livraison directement en boite aux lettres, délai indicatif de la Poste de 48H à 72H ouvrés. Vous pourrez suivre l'acheminement de votre lettre grâce à votre numéro de suivi qui vous est remis par mail dès l'envoi de votre commande. Dans le cas où le format de la lettre suivie ne rentre pas dans votre boite aux lettres, un avis de passage sera déposé. Vous disposez alors d'un délai de 15 jours consécutifs pour le récupérer sous présentation de votre pièce d'identité. Au-delà de cette période, le colis est retourné à son expéditeur, en l'occurrence SAFPIC.  Vous devrez donc payer de nouveaux frais de ports pour tout renvoi de votre commande. Si les produits choisis ne correspondent pas à ce mode d'envoi, vous basculez automatiquement en Colissimo Suivi ou Chronopost. Ni SAFPIC, ni la Poste ne peut être tenu responsable en cas de retard de livraison, la Poste ne s'engageant pas sur les délais de livraison de ce produit.</p>
+    <p>Prêt à Poster Lettre Suivie : Livraison directement en boite aux lettres, délai indicatif de la Poste de 48H à 72H ouvrés. Vous pourrez suivre l'acheminement de votre lettre grâce à votre numéro de suivi qui vous est remis par mail dès l'envoi de votre commande. Dans le cas où le format de la lettre suivie ne rentre pas dans votre boite aux lettres, un avis de passage sera déposé. Vous disposez alors d'un délai de 15 jours consécutifs pour le récupérer sous présentation de votre pièce d'identité. Au-delà de cette période, le colis est retourné à son expéditeur, en l'occurrence MOBITEC.  Vous devrez donc payer de nouveaux frais de ports pour tout renvoi de votre commande. Si les produits choisis ne correspondent pas à ce mode d'envoi, vous basculez automatiquement en Colissimo Suivi ou Chronopost. Ni MOBITEC, ni la Poste ne peut être tenu responsable en cas de retard de livraison, la Poste ne s'engageant pas sur les délais de livraison de ce produit.</p>
      
-    <p><strong>Chronopost:</strong> Le délai moyen de livraison constaté est de 24h ouvrés. Le colis est remis à votre domicile contre signature. En cas d'absence le colis est déposé dans le point relais Chronopost le plus proche de chez vous. Vous pourrez suivre cela à l'aide du numéro de suivi communiqué par mail. Il vous permettra de récupérer votre envoi au point d'instance indiqué. Vous disposez alors d'un délai de 14 jours consécutifs pour le récupérer muni d'une pièce d'identité. Au-delà de cette période, le colis est retourné à son expéditeur, en l'occurrence SAFPIC. Vous devrez donc payer de nouveaux frais de ports pour tout renvoi de votre commande.
+    <p><strong>Chronopost:</strong> Le délai moyen de livraison constaté est de 24h ouvrés. Le colis est remis à votre domicile contre signature. En cas d'absence le colis est déposé dans le point relais Chronopost le plus proche de chez vous. Vous pourrez suivre cela à l'aide du numéro de suivi communiqué par mail. Il vous permettra de récupérer votre envoi au point d'instance indiqué. Vous disposez alors d'un délai de 14 jours consécutifs pour le récupérer muni d'une pièce d'identité. Au-delà de cette période, le colis est retourné à son expéditeur, en l'occurrence MOBITEC. Vous devrez donc payer de nouveaux frais de ports pour tout renvoi de votre commande.
       Nous ne pouvons être tenu responsable en cas de retard de livraison, vue que ce service est sous-traité par Chronopost, et donc indépendant de notre association.</p>
      
     <p><strong>Frais de livraison :</strong></p>
@@ -148,7 +146,7 @@
       Une fois le règlement effectué par vos soins, votre commande est disponible immédiatement sauf si mention contraire.
       Dans le cadre d'une réparation le délai maximum est de 48h ouvrés à compter du dépôt de votre téléphone. Nous vous enverrons un mail une fois celle-ci effectuée.
       La commande est à récupérer à l'adresse suivante :</p>
-    <strong>SAFPIC Association<br>
+    <strong>MOBITEC Association<br>
     3 rond-point des Acacias<br>
     Centre équestre des 3D<br>
     59790 RONCHIN</strong>
@@ -157,7 +155,7 @@
       Dans le cas d'une commande portant sur plusieurs biens livrés séparément, ou dans le cas d'une commande d'un bien composé de lots ou de pièces multiples dont la livraison est échelonnée sur une période définie, le délai court à compter de la réception du dernier bien ou lot ou de la dernière pièce.</p>
     <p><strong>Formalités de retour du produit :</strong></p>
     <p>Pour toute procédure de retour, vous devez remplir le formulaire de rétractation disponible en cliquant ici. Une fois celui-ci réceptionné, un accusé de réception vous sera adressé par mail.L'envoi du produit doit intervenir au plus tard dans les 14 jours suivant l'envoi de votre rétractation à l'adresse suivante : </p>
-    <strong>SAFPIC, 3 rond- point des Acacias – centre équestre des 3D, 59790 RONCHIN</strong>
+    <strong>MOBITEC, 3 rond- point des Acacias – centre équestre des 3D, 59790 RONCHIN</strong>
     <p>Pour que votre retour soit pris en compte, le produit retourné devra être dans son emballage d'origine, avec la facture jointe.
       Les produits retournés incomplets, endommagés, salis, ou présentant des signes d'utilisation le rendant impropre à la vente ne seront pas repris.Les frais inhérents au retour du produit seront à votre charge, sauf si erreur de référence de notre part.</p>
      
@@ -165,7 +163,7 @@
     <p>Les réparations sont exclues du droit de rétractation comme spécifié dans l'article L121-21-8 du Code de la Consommation : " Fourniture de services pleinement exécutés avant la fin du délai de rétractation et dont l'exécution a commencé après accord préalable exprès du consommateur et renoncement exprès à son droit de rétractation".</p>
      
     <p><strong>Remboursement :</strong></p>
-    <p>Le montant sera remboursé sur votre compte dans un délai de 14 jours suivant la notification de votre demande de rétractation. Cependant SAFPIC association peut différer le remboursement jusqu'à récupération des biens ou jusqu'à ce que vous ayez fourni une preuve d'expédition des biens.Dans le cas d'un retour d'une partie de votre commande, vous serez remboursé du montant de l'article hors frais de port.Le remboursement se fera par le même moyen de paiement que pour l'achat.</p>
+    <p>Le montant sera remboursé sur votre compte dans un délai de 14 jours suivant la notification de votre demande de rétractation. Cependant MOBITEC association peut différer le remboursement jusqu'à récupération des biens ou jusqu'à ce que vous ayez fourni une preuve d'expédition des biens.Dans le cas d'un retour d'une partie de votre commande, vous serez remboursé du montant de l'article hors frais de port.Le remboursement se fera par le même moyen de paiement que pour l'achat.</p>
      
     <p> <strong>Majoration en cas de retard de remboursement :</strong></p>
      
@@ -204,13 +202,13 @@
     <p><strong>Garantie constructeur et commerciale :</strong></p>
     <p>La durée de la garantie débute à compter de la date de livraison, et varie selon le type de produits sélectionnés :
       Mobiles reconditionnés : Garantie commerciale de 3 mois.
-      Pièces détachées Elles sont garanties pendant 3 mois, SAFPIC ne pourra être tenu responsable en cas de détérioration de la pièce suite au montage, ou à une mauvaise utilisation de celle-ci.
+      Pièces détachées Elles sont garanties pendant 3 mois, MOBITEC ne pourra être tenu responsable en cas de détérioration de la pièce suite au montage, ou à une mauvaise utilisation de celle-ci.
       Réparation : Garantie de six mois pièces et main d'œuvre, valable uniquement sur les pièces remplacées.
-      Une fois le téléphone ouvert par SAFPIC ou par une tierce personne, la garantie constructeur ne pourra plus être appliquée, et sera donc définitivement perdue.</p>
+      Une fois le téléphone ouvert par MOBITEC ou par une tierce personne, la garantie constructeur ne pourra plus être appliquée, et sera donc définitivement perdue.</p>
     <p>Procédure en cas de panne :</p>
-    <p>En cas de panne d'un produit sous garantie commerciale ou constructeur, avant tout envoi veuillez contacter au préalable notre service clientèle soit par email à contact@safpic-asso.org, soit par téléphone au 09 73 12 11 92
-      Une fois le dossier ouvert, veuillez nous adresser votre produit accompagné de la facture d'achat à l'adresse suivante : SAFPIC, 3 rond-point des Acacias – centre équestre des 3D, 59790 RONCHIN Les frais d'envoi sont à votre charge.
-      Seul les produits et pièces achetés sur notre site magasin.safpic-asso.org peuvent bénéficier de cette procédure</p>
+    <p>En cas de panne d'un produit sous garantie commerciale ou constructeur, avant tout envoi veuillez contacter au préalable notre service clientèle soit par email à contact@MOBITEC-asso.org, soit par téléphone au 09 73 12 11 92
+      Une fois le dossier ouvert, veuillez nous adresser votre produit accompagné de la facture d'achat à l'adresse suivante : MOBITEC, 3 rond-point des Acacias – centre équestre des 3D, 59790 RONCHIN Les frais d'envoi sont à votre charge.
+      Seul les produits et pièces achetés sur notre site magasin.MOBITEC-asso.org peuvent bénéficier de cette procédure</p>
      
      
     <p><strong>Exclusion de garantie :</strong></p>
@@ -221,13 +219,13 @@
     -Tous produits cassés.<br>
     -Tous produits présentant des traces d'oxydation.<br>
     <p><strong>Cas de force majeur :</strong></p>
-    <p>Ni SAFPIC, ni l'acheteur ne sauraient être tenus responsables de toute inexécution qui aurait pour origine un cas de force majeure, échappant à leur contrôle, incluant notamment, sans que cela soit limitatif, les cas de guerre, émeute, insurrection, interruption de transport, problème d'importation ou d'exportation, douane, grève, lock-out, pénurie d'articles, incendie, tremblement de terre, tempête, inondation.
-      En présence d'un évènement constitutif de force majeure, SAFPIC en avisera l'Acheteur dans les cinq jours ouvrables suivant la survenance ou la menace de cet évènement. Les Parties conviennent qu'elles devront se concerter dans les meilleurs délais afin de déterminer ensemble les modalités d'exécution de la commande pendant la durée du cas de force majeure
-      Au-delà d'un délai d'un mois d'interruption pour cause de force majeure, SAFPIC pourra ne pas honorer la commande, à charge pour elle de rembourser l'Acheteur le cas échéant.</p>
+    <p>Ni MOBITEC, ni l'acheteur ne sauraient être tenus responsables de toute inexécution qui aurait pour origine un cas de force majeure, échappant à leur contrôle, incluant notamment, sans que cela soit limitatif, les cas de guerre, émeute, insurrection, interruption de transport, problème d'importation ou d'exportation, douane, grève, lock-out, pénurie d'articles, incendie, tremblement de terre, tempête, inondation.
+      En présence d'un évènement constitutif de force majeure, MOBITEC en avisera l'Acheteur dans les cinq jours ouvrables suivant la survenance ou la menace de cet évènement. Les Parties conviennent qu'elles devront se concerter dans les meilleurs délais afin de déterminer ensemble les modalités d'exécution de la commande pendant la durée du cas de force majeure
+      Au-delà d'un délai d'un mois d'interruption pour cause de force majeure, MOBITEC pourra ne pas honorer la commande, à charge pour elle de rembourser l'Acheteur le cas échéant.</p>
      
     <p><strong>Informatique et Liberté:</strong></p>
     <p>Les données personnelles du Client (nom, prénom, raison sociale, fonction, adresses électronique et géographique, numéros de téléphone et de télécopie, informations bancaires) sont collectées par le site pour les besoins d'une bonne gestion des commandes, des livraisons et des factures, et sous le respect des dispositions de la Loi Informatique et Libertés n°78-17 du 6 janvier 1978.
-      Les informations qui doivent être obligatoirement enregistrées par le Client pour pouvoir passer commande sont identifiées en ligne par un astérisque. Le Client dispose à tout moment d’un droit d’accès, de modification, de rectification et de suppression des informations personnelles collectées par la Société le concernant. Pour exercer ce droit, le Client peut, à son choix, envoyer un e-mail à l'adresse suivante:contact@safpic-asso.org, soit adresser un courrier à l’adresse suivante : En passant commande sur le Site, le Client donne son consentement à l’utilisation des données nominatives recueillies lors de la prise de la commande au titre du fichier de clientèle du site pour les besoins de la facturation. La société conservera ces informations pendant une durée de 2 ans après prise de la commande sur support informatique. Par ailleurs, la société peut utiliser les données personnelles concernant le Client afin de lui adresser des offres commerciales susceptibles de l’intéresser. En application de la Loi Informatique et Libertés, le Client dispose cependant du droit de s’opposer à la réception par courrier électronique de documents de prospection commerciale non sollicitée, en adressant un courrier à l'adresse suivante: <strong>SAFPIC , 3 rond-point des Acacias – centre équestre des 3D, 59790 RONCHIN</strong> L’association SAFPIC s’interdit la transmission des données personnelles communiquées par le Client à des partenaires commerciaux</p>
+      Les informations qui doivent être obligatoirement enregistrées par le Client pour pouvoir passer commande sont identifiées en ligne par un astérisque. Le Client dispose à tout moment d’un droit d’accès, de modification, de rectification et de suppression des informations personnelles collectées par la Société le concernant. Pour exercer ce droit, le Client peut, à son choix, envoyer un e-mail à l'adresse suivante:contact@MOBITEC-asso.org, soit adresser un courrier à l’adresse suivante : En passant commande sur le Site, le Client donne son consentement à l’utilisation des données nominatives recueillies lors de la prise de la commande au titre du fichier de clientèle du site pour les besoins de la facturation. La société conservera ces informations pendant une durée de 2 ans après prise de la commande sur support informatique. Par ailleurs, la société peut utiliser les données personnelles concernant le Client afin de lui adresser des offres commerciales susceptibles de l’intéresser. En application de la Loi Informatique et Libertés, le Client dispose cependant du droit de s’opposer à la réception par courrier électronique de documents de prospection commerciale non sollicitée, en adressant un courrier à l'adresse suivante: <strong>MOBITEC , 3 rond-point des Acacias – centre équestre des 3D, 59790 RONCHIN</strong> L’association MOBITEC s’interdit la transmission des données personnelles communiquées par le Client à des partenaires commerciaux</p>
     <p class="text-right"><a class="btn-warning p-2" href="#faq">Lien haut de page </a></p>
   </div>
 </main>
